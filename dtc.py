@@ -10,7 +10,7 @@ class DecisionTreeClassifier:
 
     def fit(self, X, y):
         """Build decision tree classifier."""
-        self.n_classes_ = len(set(y))  # classes are assumed to go from 0 to n-1
+        self.n_classes_ = len(set(y))   # classes are assumed to go from 0 to n-1
         self.n_features_ = X.shape[1]
         self.tree_ = self._grow_tree(X, y)
 
@@ -131,6 +131,23 @@ class DecisionTreeClassifier:
                 node = node.right
         return node.predicted_class
 
+def catecorical_cols(mydata):
+    cols = mydata.columns
+    num_cols = data._get_numeric_data().columns
+    feature_col = list(set(cols) - set(num_cols))
+    return feature_col
+
+def encode_feaures(mydata):
+
+
+    encode = preprocessing.LabelEncoder()
+    features = catecorical_cols(mydata)
+
+    for x in features:
+        mydata[x] = (encode.fit_transform(mydata[x]))
+    return mydata
+
+
 
 if __name__ == "__main__":
     import argparse
@@ -174,21 +191,24 @@ if __name__ == "__main__":
     # 3)	Test: rows 24,130-end.
 
     feature_cols = data.columns
-    catagorical_features = ['workclass', 'marital-status', 'occupation', 'relationship', 'race', 'sex',
-                            'native-country']
+    ## get all coloumns bu the last ( last columns is the class )
+
     feature_cols = feature_cols[:-1]
     X = data[feature_cols]
-    le = preprocessing.LabelEncoder()
-    X = X.drop(columns=['education'])
-    feature_cols = X.columns
-    X_2 = X.apply(le.fit_transform)
-    print(X_2.head())
-    # for x in catagorical_features:
-    #     X[x] = X[x].astype('category')
-    #     X[x] = X[x].cat.codes
+
+    ## encode all categorical features
+    X = encode_feaures(X)
+    print(data.columns[-1])
+    ## class is the last columns
     y = data[data.columns[-1]]
+    target_col = data.columns[-1]
+    X.to_csv("newdata.csv")
+
+
+
     y = y.to_numpy()
-    X_2 = X_2.to_numpy()
+    X_2 = X.to_numpy()
+
     X_train, X_test, y_train, y_test = train_test_split(X_2, y, test_size=0.2, random_state=1)
     X_train, X_val, y_train, y_val = train_test_split(X_train, y_train, test_size=0.211, random_state=1)
 
@@ -199,7 +219,7 @@ if __name__ == "__main__":
         clf = SklearnDecisionTreeClassifier(max_depth=args.max_depth)
     else:
         clf = DecisionTreeClassifier(max_depth=args.max_depth)
-    print(X_train.shape[1])
+    print(len(set(y_train)))
     clf.fit(X_train, y_train)
 
     # 3. Predict.
@@ -213,7 +233,7 @@ if __name__ == "__main__":
             clf,
             out_file="tree.dot",
             feature_names=feature_cols,
-            class_names=data.columns[-1],
+            class_names=[target_col],
             rounded=True,
             filled=True,
         )
@@ -222,6 +242,6 @@ if __name__ == "__main__":
 
         clf.debug(
              list(feature_cols),
-             data.columns[-1],
-            not args.hide_details,
+             list([target_col]),
+             not args.hide_details,
         )
