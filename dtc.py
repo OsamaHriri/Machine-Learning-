@@ -1,19 +1,135 @@
 """Implementation of the CART algorithm to train decision tree classifiers."""
 import numpy as np
+import itertools
 
 import tree
 
 
-class DecisionTreeClassifier:
-    def __init__(self, max_depth=None):
+class RandomForest:
+    def __init__(self, n_trees=10, max_depth=5 ,min_samples_split=2, criterion='gini',
+                 max_features=5, bootstrap=True, n_cores=1):
+        self.n_trees = n_trees
         self.max_depth = max_depth
+        self.min_samples_split = min_samples_split
+        self.criterion = criterion
+        self.max_features = max_features
+        self.bootstrap = bootstrap
+        self.n_cores = n_cores
+        self.trees = None
+
+    def subsample(self, X_train, y_train, ratio):
+        sample_X, sample_y = list(), list()
+        n_sample = round(len(X_train) * ratio)
+        while len(sample_X) < n_sample:
+            index = np.random.randint(len(X_train))
+            sample_X.append(X_train[index])
+            sample_y.append(y_train[index])
+
+        return sample_X, sample_y
+
+    def train(self, X_train, y_train):
+        features = []
+        cols = X_train.columns
+        while len(features) < self.max_features:
+            index = np.random.randint(len(cols))
+            if cols[index] not in features:
+                features.append(cols[index])
+
+        print(features)
+        X_train = X_train[features]
+
+        X_train = np.array(X_train.values)
+        y_train = y_train.values
+        trees = list()
+        sample_size = np.random.rand()
+        for i in range(self.n_trees):
+            if self.bootstrap:
+                sample_X, sample_y = self.subsample(X_train, y_train, sample_size)
+            else:
+                sample_X, sample_y = X_train, y_train
+
+            sample_X, df = pd.DataFrame(sample_X), pd.DataFrame(sample_y)
+            sample_y = df[0]
+            # print(sample_y.values)
+
+            dt = DecisionTreeClassifier(self.max_depth , self.min_samples_split, self.criterion)
+            tree = dt.build_tree(sample_X, sample_y)
+            trees.append(tree)
+
+        self.trees = trees
+        return self.trees
+
+    def fit_predict(self, X_train, y_train, X_test):
+        # features = []
+        # cols = X_train.columns
+        # while len(features)!=len(cols) and len(features) < self.max_features:
+        # print(len(features))
+        # index = np.random.randint(len(cols))
+        # if cols[index] not in features:
+        # features.append(cols[index])
+
+        # print(features)
+        # X_train = X_train[features]
+        # X_train = np.array(X_train.values)
+        # y_train = y_train.values
+        y_train_new = y_train.values
+        trees = list()
+        cols = X_train.columns
+        sample_size = np.random.rand()
+        predictions = []
+        for i in range(self.n_trees):
+
+            if self.bootstrap:
+                features = []
+                i = 0
+                while len(features) != len(cols) and len(features) < self.max_features:
+                    # print(len(features))
+                    index = np.random.randint(len(cols))
+                    if cols[index] not in features:
+                        features.append(cols[index])
+                    if len(features) >= 1 and i == self.max_features + 2:
+                        break
+                    i += 1
+
+                # print(features)
+                X_train_new = X_train[features]
+                X_train_new = np.array(X_train_new.values)
+
+                sample_X, sample_y = self.subsample(X_train_new, y_train_new, sample_size)
+                sample_X, df = pd.DataFrame(sample_X), pd.DataFrame(sample_y)
+                sample_y = df[0]
+            else:
+                sample_X, sample_y = X_train, y_train
+
+            # print(sample_y.values)
+
+            dt = DecisionTreeClassifier(self.max_depth , self.min_samples_split, self.criterion)
+            dt.build_tree(sample_X, sample_y)
+            prediction = dt.predict_new(X_test)
+            predictions.append(prediction)
+
+        # print(np.array(predictions).shape)
+
+        df = np.array(predictions)
+        print(df.shape)
+        df = pd.DataFrame(df)
+        final_predictions = df.mode(axis=0).values[0]
+
+        return final_predictions
+
+
+class DecisionTreeClassifier:
+    def __init__(self, max_depth=None, min_samples_split=2, criterion='gini'):
+        self.max_depth = max_depth
+        self.max_leaf_nodes = max_leaf_nodes
+        self.min_samples_split = min_samples_split
+        self.criterion = criterion
 
     def fit(self, X, y):
         """Build decision tree classifier."""
-        self.n_classes_ = len(set(y))   # classes are assumed to go from 0 to n-1
+        self.n_classes_ = len(set(y))  # classes are assumed to go from 0 to n-1
         self.n_features_ = X.shape[1]
         self.tree_ = self._grow_tree(X, y)
-
 
     def predict(self, X):
         """Predict class for X."""
@@ -45,6 +161,8 @@ class DecisionTreeClassifier:
             best_thr: Threshold to use for the split, or None if no split is found.
         """
         # Need at least two elements to split a node.
+        global split
+        split = 0
         m = y.size
         if m <= 1:
             return None, None
@@ -53,13 +171,17 @@ class DecisionTreeClassifier:
         num_parent = [np.sum(y == c) for c in range(self.n_classes_)]
 
         # Gini of current node.
-        best_gini = 1.0 - sum((n / m) ** 2 for n in num_parent)
+        if (self.criterion == 'gini'):
+            best_split = 1.0 - sum((n / m) ** 2 for n in num_parent)
+        else:
+            best_split = 0
         best_idx, best_thr = None, None
 
         # Loop through all features.
         for idx in range(self.n_features_):
             # Sort data along selected feature.
             thresholds, classes = zip(*sorted(zip(X[:, idx], y)))
+            # print(thresholds)
 
             # We could actually split the node according to each feature/threshold pair
             # and count the resulting population for each class in the children, but
@@ -71,16 +193,22 @@ class DecisionTreeClassifier:
                 c = classes[i - 1]
                 num_left[c] += 1
                 num_right[c] -= 1
-                gini_left = 1.0 - sum(
-                    (num_left[x] / i) ** 2 for x in range(self.n_classes_)
-                )
-                gini_right = 1.0 - sum(
-                    (num_right[x] / (m - i)) ** 2 for x in range(self.n_classes_)
-                )
+                if (self.criterion == 'gini'):
+                    gini_left = 1.0 - sum(
+                        (num_left[x] / i) ** 2 for x in range(self.n_classes_)
+                    )
+                    gini_right = 1.0 - sum(
+                        (num_right[x] / (m - i)) ** 2 for x in range(self.n_classes_)
+                    )
 
-                # The Gini impurity of a split is the weighted average of the Gini
-                # impurity of the children.
-                gini = (i * gini_left + (m - i) * gini_right) / m
+                    # The Gini impurity of a split is the weighted average of the Gini
+                    # impurity of the children.
+                    split = (i * gini_left + (m - i) * gini_right) / m
+                elif (self.criterion == 'mse'):
+                    for targets in [num_left, num_right]:
+                        mean = targets.mean()
+                        for dt in targets:
+                            split += (dt - mean) ** 2
 
                 # The following condition is to make sure we don't try to split two
                 # points with identical values for that feature, as it is impossible
@@ -88,8 +216,8 @@ class DecisionTreeClassifier:
                 if thresholds[i] == thresholds[i - 1]:
                     continue
 
-                if gini < best_gini:
-                    best_gini = gini
+                if split < best_split:
+                    best_split = split
                     best_idx = idx
                     best_thr = (thresholds[i] + thresholds[i - 1]) / 2  # midpoint
 
@@ -113,10 +241,15 @@ class DecisionTreeClassifier:
             idx, thr = self._best_split(X, y)
             if idx is not None:
                 indices_left = X[:, idx] < thr
+                print(indices_left)
+                print()
+                print(~indices_left)
                 X_left, y_left = X[indices_left], y[indices_left]
                 X_right, y_right = X[~indices_left], y[~indices_left]
+                if (X[indices_left] < self.min_samples_split or X[~indices_left] < self.min_samples_split):
+                    return node
                 node.feature_index = idx
-                node.threshold = thr
+                node.threshold = thr  ##TODO add hyperparametre tunning
                 node.left = self._grow_tree(X_left, y_left, depth + 1)
                 node.right = self._grow_tree(X_right, y_right, depth + 1)
         return node
@@ -131,15 +264,15 @@ class DecisionTreeClassifier:
                 node = node.right
         return node.predicted_class
 
+
 def catecorical_cols(mydata):
     cols = mydata.columns
     num_cols = data._get_numeric_data().columns
     feature_col = list(set(cols) - set(num_cols))
     return feature_col
 
+
 def encode_feaures(mydata):
-
-
     encode = preprocessing.LabelEncoder()
     features = catecorical_cols(mydata)
 
@@ -147,6 +280,19 @@ def encode_feaures(mydata):
         mydata[x] = (encode.fit_transform(mydata[x]))
     return mydata
 
+
+# {'max_leaf_nodes': list(range(2, 100)), 'min_samples_split': [2, 3, 4], 'max_depth': [16]}
+
+def optimize_model(X_train, X_val, param):
+    somelists = {'max_leaf_nodes': list(range(2, 100)), 'min_samples_split': [2, 3, 4], 'max_depth': [16]}
+    keys, values = zip(*somelists.items())
+    best_acc, best_model = 0, none
+    # print(len(list(itertools.product(*values))))
+    for element in itertools.product(*values):
+        zipper = dict(zip(keys, element))
+        clf = DecisionTreeClassifier(max_depth=zipper['max_depth'], max_leaf_nodes=zipper['max_leaf_nodes'],
+                                     min_samples_split=zipper['min_samples_split'])
+        print(zipper)
 
 
 if __name__ == "__main__":
@@ -159,6 +305,7 @@ if __name__ == "__main__":
     from sklearn import preprocessing
     from sklearn.model_selection import train_test_split
     from sklearn import metrics
+    from sklearn.model_selection import GridSearchCV
 
     parser = argparse.ArgumentParser(description="Train a decision tree.")
     # parser.add_argument("--dataset", choices=["breast", "iris", "wifi"], default="iris")
@@ -166,6 +313,8 @@ if __name__ == "__main__":
     parser.add_argument("--hide_details", dest="hide_details", action="store_true")
     parser.set_defaults(hide_details=False)
     parser.add_argument("--use_sklearn", dest="use_sklearn", action="store_true")
+    parser.set_defaults(use_sklearn=False)
+    parser.add_argument("--optimize", dest="optimize", action="store_true")
     parser.set_defaults(use_sklearn=False)
     args = parser.parse_args()
 
@@ -204,24 +353,37 @@ if __name__ == "__main__":
     target_col = data.columns[-1]
     X.to_csv("newdata.csv")
 
-
-
     y = y.to_numpy()
     X_2 = X.to_numpy()
 
     X_train, X_test, y_train, y_test = train_test_split(X_2, y, test_size=0.2, random_state=1)
     X_train, X_val, y_train, y_val = train_test_split(X_train, y_train, test_size=0.211, random_state=1)
 
-
-
+    # if args.optimize:
+    #
+    #     if args.use_sklearn:
+    #         ##TODO optimize via gridsearchcv
+    #
+    #
+    #     else:
+    #         ## TODO optimize parameters
+    #
+    # else:
     # 2. Fit decision tree.
     if args.use_sklearn:
-        clf = SklearnDecisionTreeClassifier(max_depth=args.max_depth)
-    else:
-        clf = DecisionTreeClassifier(max_depth=args.max_depth)
-    print(len(set(y_train)))
-    clf.fit(X_train, y_train)
+        params = {'max_leaf_nodes': list(range(2, 100)), 'min_samples_split': [2, 3, 4], 'max_depth': [16]}
+        clf = GridSearchCV(SklearnDecisionTreeClassifier(random_state=42), params, verbose=1, cv=3)
+        model = clf.best_estimator_
 
+        # clf = SklearnDecisionTreeClassifier(max_depth=args.max_depth)
+
+    else:
+        pass
+
+    clf.fit(X_train, y_train)
+    clf = DecisionTreeClassifier(max_depth=args.max_depth)
+    print(clf.best_estimator_)
+    clf.get
     # 3. Predict.
 
     y_pred = clf.predict(X_test)
@@ -241,7 +403,7 @@ if __name__ == "__main__":
     else:
 
         clf.debug(
-             list(feature_cols),
-             list([target_col]),
-             not args.hide_details,
+            list(feature_cols),
+            list([target_col]),
+            not args.hide_details,
         )
