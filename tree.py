@@ -22,6 +22,7 @@ class Node:
         for line in lines:
             print(line)
 
+
     def _debug_aux(self, feature_names, class_names, show_details, root=False):
         # See https://stackoverflow.com/a/54074933/1143396 for similar code.
         is_leaf = not self.right
@@ -35,24 +36,26 @@ class Node:
             lines += [
                 "gini = {:.2f}".format(self.gini),
                 "samples = {}".format(self.num_samples),
-                str(self.num_samples_per_class),
+                # str(self.num_samples_per_class),
             ]
+        lines = list(map(str, lines))
+        # print(lines)
         width = max(len(line) for line in lines)
         height = len(lines)
         if is_leaf:
-            lines = ["? {:^{width}} ?".format(line, width=width) for line in lines]
-            lines.insert(0, "?" + "?" * (width + 2) + "?")
-            lines.append("?" + "?" * (width + 2) + "?")
+            lines = ["║ {:^{width}} ║".format(line, width=width) for line in lines]
+            lines.insert(0, "╔" + "═" * (width + 2) + "╗")
+            lines.append("╚" + "═" * (width + 2) + "╝")
         else:
-            lines = ["? {:^{width}} ?".format(line, width=width) for line in lines]
-            lines.insert(0, "?" + "?" * (width + 2) + "?")
-            lines.append("?" + "?" * (width + 2) + "?")
-            lines[-2] = "?" + lines[-2][1:-1] + "?"
+            lines = ["│ {:^{width}} │".format(line, width=width) for line in lines]
+            lines.insert(0, "┌" + "─" * (width + 2) + "┐")
+            lines.append("└" + "─" * (width + 2) + "┘")
+            lines[-2] = "┤" + lines[-2][1:-1] + "├"
         width += 4  # for padding
 
         if is_leaf:
             middle = width // 2
-            lines[0] = lines[0][:middle] + "?" + lines[0][middle + 1 :]
+            lines[0] = lines[0][:middle] + "╧" + lines[0][middle + 1 :]
             return lines, width, height, middle
 
         # If not a leaf, must have two children.
@@ -60,8 +63,8 @@ class Node:
         right, m, q, y = self.right._debug_aux(feature_names, class_names, show_details)
         top_lines = [n * " " + line + m * " " for line in lines[:-2]]
         # fmt: off
-        middle_line = x * " " + "?" + (n - x - 1) * "?" + lines[-2] + y * "?" + "?" + (m - y - 1) * " "
-        bottom_line = x * " " + "?" + (n - x - 1) * " " + lines[-1] + y * " " + "?" + (m - y - 1) * " "
+        middle_line = x * " " + "┌" + (n - x - 1) * "─" + lines[-2] + y * "─" + "┐" + (m - y - 1) * " "
+        bottom_line = x * " " + "│" + (n - x - 1) * " " + lines[-1] + y * " " + "│" + (m - y - 1) * " "
         # fmt: on
         if p < q:
             left += [n * " "] * (q - p)
@@ -75,5 +78,5 @@ class Node:
         )
         middle = n + width // 2
         if not root:
-            lines[0] = lines[0][:middle] + "?" + lines[0][middle + 1 :]
+            lines[0] = lines[0][:middle] + "┴" + lines[0][middle + 1 :]
         return lines, n + m + width, max(p, q) + 2 + len(top_lines), middle
