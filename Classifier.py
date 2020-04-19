@@ -328,10 +328,8 @@ class DecisionTreeClassifier:
 
         # Split recursively until maximum depth is reached.
         if depth < self.max_depth:
-            if self.criterion == 'gini':
-                idx, thr = self._best_split_gini(X, y)
-            elif self.criterion == 'mse':
-                idx, thr = self._best_split_mse3(X, y)
+
+            idx, thr = self._best_split_gini(X, y)
 
             if idx is not None:
                 indices_left = X[:, idx] < thr
