@@ -63,7 +63,7 @@ class RandomForestRegressor:
                 sample_X, sample_y = X_train, y_train
             # print((sample_X))
             # print(sample_y)
-            print('training tree num:', i)
+            # print('training tree num:', i)
             dt = DecisionTreeRegressor(max_depth=self.max_depth, min_samples_split=self.min_samples_split,
                                        criterion=self.criterion)
 
@@ -312,44 +312,3 @@ class DecisionTreeRegressor:
         """Print ASCII visualization of decision tree."""
 
 
-
-
-# data_exel = pd.read_excel("adult_income.xlsx", sheet_name='adult_income_data', header=0)  # 30162 rows
-# data_exel = encode_feaures(data_exel)
-#
-# class_name = 'education-num'
-# features = ['age', 'workclass', 'marital-status', 'relationship', 'race', 'sex', 'capital-gain', 'capital-loss',
-#             'hours-per-week', 'native-country']
-# unique_val = data_exel[class_name].unique()
-#
-# dataset = Bunch(
-#     data=data_exel[features],
-#     target=data_exel[class_name] - 1,
-#     feature_names=features,
-#     target_names=data_exel[class_name].unique(),
-# )
-# dataset.target_names.sort()
-# dataset.target_names = list(dataset.target_names)
-# # print(dataset.data)
-# # print(dataset.target)
-# # print(dataset.feature_names)
-# # print(dataset.target_names)
-#
-#
-# dataset.data = dataset.data.to_numpy()
-# dataset.target = dataset.target.to_numpy()
-#
-# X_train, X_test, y_train, y_test = train_test_split(dataset.data, dataset.target, test_size=0.2, random_state=42)
-# print('training')
-# print(X_train)
-# clf = RandomForestRegressor(max_depth=10)
-#
-# clf.fit(X_train, y_train,features)
-#
-# print('predecting')
-# y_pred = clf.predict(X_test)
-# print('visualizing')
-# # clf.visualize_tree()
-# # print([(y_pred), y_test])
-# print(y_pred)
-# print("Accuracy:", metrics.mean_squared_error(y_test, (y_pred)))
