@@ -16,7 +16,7 @@ if __name__ == "__main__":
     import time
     parser = argparse.ArgumentParser(description="Train a Model.")
     parser.add_argument("--type", choices=["tree", "forest"], default="forest")
-    parser.add_argument("--model", choices=["class", "reg"], default="reg")
+    parser.add_argument("--model", choices=["class", "reg"], default="class")
     parser.add_argument("--optimize", dest="optimize", action="store_true")
     parser.set_defaults(optimize=True)
 
@@ -92,23 +92,24 @@ if __name__ == "__main__":
         best_acc, best_model, best_params = 0, None, None
         if(model == 'reg'):
             best_acc = float('inf')
-        print(len(list(itertools.product(*values))))
+        i=str(len(list(itertools.product(*values))))
+        print("Training " + i + " Models")
         for element in itertools.product(*values):
             model_start_time = time.time()
             current_params = dict(zip(keys, element))
             current_model = get_model(model, type, current_params)
-
-            print('*******************************************')
-            print('Traning model Number :{}', current_modle_index)
-            print('Current Paramaters :{}', current_params)
-            print('Current Best Paramaters :{}', best_params)
-            print('Current Best Acc :{}', best_acc)
+            print("Training Model Number: "+str(current_modle_index)+" Out of "+ i )
+            print('_________________________')
             current_model.fit(_X_train, _y_train, feature_cols)
 
             # print(clf.best_estimator_)
             # 3. Predict.
             #
             y_predict = current_model.predict(_X_val)
+            print('Current Paramaters :', current_params)
+            print('Current Best Paramaters :', best_params)
+            print('Current Best Acc :{}', best_acc)
+
             if(model == 'class'):
                 current_acc = metrics.accuracy_score(_y_val, y_predict)
             else:
@@ -156,10 +157,10 @@ if __name__ == "__main__":
         features = feature_cols_reg
         predction_col = class_name_reg
     if(args.type =='tree'):
-        param = {'min_samples_split': [2, 100, 200], 'max_depth': [2, 4, 8, 16]}
+        param = {'min_samples_split': [2, 100, 200], 'max_depth':[2,4,6,8,16]}
     else:
-        param = {'max_features': [None, 'sqrt', 'log'], 'n_trees': list(range(2, 10)),
-                     'min_samples_split': [2, 100, 200], 'max_depth': [2, 4, 8, 16]}
+        param = {'max_features': [None, 'sqrt'], 'n_trees': [5,10,15],
+                     'min_samples_split': [2, 100, 200], 'max_depth': [2,4,6,8,16]}
     print(features,predction_col)
     data = data_exel[features].to_numpy()
     targets = data_exel[predction_col].to_numpy()
@@ -174,12 +175,12 @@ if __name__ == "__main__":
     model = get_model(args.model,args.type,best_params)
 
     model.fit(X_train, y_train,features)
-    model.debug(
-
-        list(features),
-        list(data_exel['>50K'].unique()),
-        True,
-            )
+    # model.debug(
+    #
+    #     list(features),
+    #     list(data_exel['>50K'].unique()),
+    #     True,
+    #         )
     y_pred = model.predict(X_test)
 
     if args.model == 'class':

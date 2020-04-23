@@ -63,7 +63,7 @@ class RandomForestClassifier:
                 sample_X, sample_y = X_train, y_train
             # print((sample_X))
             # print(sample_y)
-            print('training tree num:', i)
+
             dt = DecisionTreeClassifier(max_depth=self.max_depth, min_samples_split=self.min_samples_split,
                                         criterion=self.criterion)
 
