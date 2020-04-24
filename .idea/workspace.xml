@@ -2,15 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="269a319e-fb0c-4217-95ef-d8a00e1c5c8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Nareed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Final_output_sklearn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Machine-Learning-HWs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Machine-Learning-HWs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW01/Classifier.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW01/Ex1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW01/HW1_312375462_209243526.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW01/Regression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW01/SectionC.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW01/adult_income.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW01/tree.dot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW01/tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW01/תרגיל תכנות_סופי.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW02/תרגיל למידת מכונה 2.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classifier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ex1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ex1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectionC.py" beforeDir="false" afterPath="$PROJECT_DIR$/SectionC.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classifier.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final_output_sklearn.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Regression.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SectionC.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adult_income.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/decisiontreeclassification.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forestclass.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forestression.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newdata.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sklearnEX.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree.dot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/treregression.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$adult_income.xlsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +241,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586355281677</updated>
-      <workItem from="1587729407003" duration="6288000" />
+      <workItem from="1587729407003" duration="6686000" />
+      <workItem from="1587737021954" duration="260000" />
     </task>
     <task id="LOCAL-00001" summary="bug fix">
       <created>1586355373210</created>
@@ -247,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587302985565</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="reordered and added sklearn output">
+      <created>1587735903164</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587735903164</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,12 +281,18 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="bug fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="bug fix" />
+    <MESSAGE value="reordered and added sklearn output" />
+    <option name="LAST_COMMIT_MESSAGE" value="reordered and added sklearn output" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2534" y="115" key="CommitChangelistDialog2" timestamp="1587302985001">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="93" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587737143397">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="93" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1587737143397" />
+    <state x="409" y="0" key="CommitChangelistDialog2" timestamp="1587735902418">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="409" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1587735902418" />
     <state x="2534" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587302985001" />
     <state width="1899" height="868" key="GridCell.Tab.0.bottom" timestamp="1587628503736">
       <screen x="1920" y="0" width="1920" height="1040" />
@@ -307,9 +338,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2381" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586638293331" />
-    <state x="2472" y="252" key="Vcs.Push.Dialog.v2" timestamp="1587302989277">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="368" y="147" key="Vcs.Push.Dialog.v2" timestamp="1587735906925">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1587735906925" />
     <state x="2472" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587302989277" />
     <state x="565" y="565" key="com.intellij.ide.util.TipDialog" timestamp="1587668518945">
       <screen x="0" y="0" width="1920" height="1040" />

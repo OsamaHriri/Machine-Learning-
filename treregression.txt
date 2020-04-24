@@ -1,8 +1,0 @@
-reg forest
-['age', 'workclass', 'marital-status', 'relationship', 'race', 'sex', 'capital-gain', 'capital-loss', 'hours-per-week', 'native-country'] education-num
-<Regression.RandomForestRegressor object at 0x00000276AC2D15C0>
-training tree num: 0
-training tree num: 1
-training tree num: 2
-training tree num: 3
-MSE: 5.7700836500319586
