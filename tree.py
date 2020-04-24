@@ -22,7 +22,6 @@ class Node:
         for line in lines:
             print(line)
 
-
     def _debug_aux(self, feature_names, class_names, show_details, root=False):
         # See https://stackoverflow.com/a/54074933/1143396 for similar code.
         is_leaf = not self.right
