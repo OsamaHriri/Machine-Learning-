@@ -1,8 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="269a319e-fb0c-4217-95ef-d8a00e1c5c8b" name="Default Changelist" comment="bug fix">
+    <list default="true" id="269a319e-fb0c-4217-95ef-d8a00e1c5c8b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/HW01/Classifier.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW01/Ex1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW01/HW1_312375462_209243526.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW01/Regression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW01/SectionC.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW01/adult_income.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW01/tree.dot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW01/tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW01/תרגיל תכנות_סופי.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW02/תרגיל למידת מכונה 2.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classifier.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final_output_sklearn.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Regression.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SectionC.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adult_income.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/decisiontreeclassification.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forestclass.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forestression.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newdata.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sklearnEX.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree.dot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/treregression.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$adult_income.xlsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,13 +50,25 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1aGI0eNpRjrZaNYulavxPEJz6iW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
@@ -52,6 +89,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -73,9 +111,32 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Regression.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Machine-Learning-HWs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -94,6 +155,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="C:\Users\Odin\PycharmProjects\Machine-Learning-HWs\Regression.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -115,6 +177,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sklearnEX.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -136,6 +199,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="C:\Users\Odin\PycharmProjects\Machine-Learning-HWs\python dumb\zxc.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -177,6 +241,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586355281677</updated>
+      <workItem from="1587729407003" duration="6686000" />
+      <workItem from="1587737021954" duration="260000" />
     </task>
     <task id="LOCAL-00001" summary="bug fix">
       <created>1586355373210</created>
@@ -199,25 +265,34 @@
       <option name="project" value="LOCAL" />
       <updated>1587302985565</updated>
     </task>
-    <task id="LOCAL-00004" summary="bug fix">
-      <created>1587668529771</created>
+    <task id="LOCAL-00004" summary="reordered and added sklearn output">
+      <created>1587735903164</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1587668529771</updated>
+      <updated>1587735903164</updated>
     </task>
     <option name="localTasksCounter" value="5" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="bug fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="bug fix" />
+    <MESSAGE value="reordered and added sklearn output" />
+    <option name="LAST_COMMIT_MESSAGE" value="reordered and added sklearn output" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="614" y="115" key="CommitChangelistDialog2" timestamp="1587668535522">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="93" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587737143397">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="614" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587668535522" />
+    <state x="93" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1587737143397" />
+    <state x="409" y="0" key="CommitChangelistDialog2" timestamp="1587735902418">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="409" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1587735902418" />
     <state x="2534" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587302985001" />
     <state width="1899" height="868" key="GridCell.Tab.0.bottom" timestamp="1587628503736">
       <screen x="1920" y="0" width="1920" height="1040" />
@@ -263,15 +338,15 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2381" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586638293331" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1587668585100">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="368" y="147" key="Vcs.Push.Dialog.v2" timestamp="1587735906925">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587668585100" />
+    <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1587735906925" />
     <state x="2472" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587302989277" />
-    <state x="565" y="565" key="com.intellij.ide.util.TipDialog" timestamp="1587735943179">
+    <state x="565" y="565" key="com.intellij.ide.util.TipDialog" timestamp="1587668518945">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="565" y="565" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587735943179" />
+    <state x="565" y="565" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587668518945" />
     <state x="2485" y="565" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586528109603" />
     <state x="2689" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586872401998">
       <screen x="1920" y="0" width="1920" height="1040" />
@@ -281,14 +356,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="630" y="58" width="1759" height="718" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586789712223" />
-    <state x="264" y="232" key="git4idea.branch.GitSmartOperationDialog" timestamp="1587668559694">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2571" y="311" key="git4idea.merge.GitPullDialog" timestamp="1587302674100">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="264" y="232" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587668559694" />
-    <state x="651" y="311" key="git4idea.merge.GitPullDialog" timestamp="1587841127796">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="651" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587841127796" />
     <state x="2571" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587302674100" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1586879569311">
       <screen x="1920" y="0" width="1920" height="1040" />

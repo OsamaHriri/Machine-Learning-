@@ -1,6 +1,5 @@
 """Implementation of the CART algorithm to train decision tree classifiers."""
 import numpy as np
-import itertools
 import pandas as pd
 import tree
 
@@ -31,10 +30,9 @@ class RandomForestClassifier:
     def fit(self, X_train, y_train, feature_cols):
         tree_features = []
         features = []
-        # self.n_classes_ = len(set(y))  # classes are assumed to go from 0 to n-1
 
         cols = range(X_train.shape[1])
-        if (self.max_features == None):
+        if self.max_features == None:
             features = list(range(len(feature_cols)))
             tree_features = feature_cols
         else:
@@ -51,8 +49,6 @@ class RandomForestClassifier:
                     tree_features.append(feature_cols[int(cols[index])])
 
         X_train = X_train[:, features]
-        # print(X_train)
-        # print(y_train)
 
         trees = list()
         sample_size = np.random.rand()
@@ -61,13 +57,11 @@ class RandomForestClassifier:
                 sample_X, sample_y = self.subsample(X_train, y_train, sample_size)
             else:
                 sample_X, sample_y = X_train, y_train
-            # print((sample_X))
-            # print(sample_y)
 
             dt = DecisionTreeClassifier(max_depth=self.max_depth, min_samples_split=self.min_samples_split,
                                         criterion=self.criterion)
 
-            tree = dt.fit(sample_X, sample_y,tree_features)
+            tree = dt.fit(sample_X, sample_y, tree_features)
             trees.append(tree)
 
         self.trees = trees
@@ -75,18 +69,6 @@ class RandomForestClassifier:
         return self
 
     def fit_predict(self, X_train, y_train, X_test):
-        # features = []
-        # cols = X_train.columns
-        # while len(features)!=len(cols) and len(features) < self.max_features:
-        # print(len(features))
-        # index = np.random.randint(len(cols))
-        # if cols[index] not in features:
-        # features.append(cols[index])
-
-        # print(features)
-        # X_train = X_train[features]
-        # X_train = np.array(X_train.values)
-        # y_train = y_train.values
         y_train_new = y_train
         cols = X_train.columns
         sample_size = np.random.rand()
@@ -97,7 +79,6 @@ class RandomForestClassifier:
                 features = []
                 i = 0
                 while len(features) != len(cols) and len(features) < self.max_features:
-                    # print(len(features))
                     index = np.random.randint(len(cols))
                     if cols[index] not in features:
                         features.append(cols[index])
@@ -105,7 +86,6 @@ class RandomForestClassifier:
                         break
                     i += 1
 
-                # print(features)
                 X_train_new = X_train[features]
                 X_train_new = np.array(X_train_new.values)
 
@@ -115,8 +95,6 @@ class RandomForestClassifier:
             else:
                 sample_X, sample_y = X_train, y_train
 
-            # print(sample_y.values)
-
             dt = DecisionTreeClassifier(self.max_depth, self.min_samples_split, self.criterion)
             sample_X = sample_X.to_numpy()
             sample_y = sample_y.to_numpy()
@@ -124,10 +102,7 @@ class RandomForestClassifier:
             prediction = dt.predict(X_test)
             predictions.append(prediction)
 
-        # print(np.array(predictions).shape)
-
         df = np.array(predictions)
-        # print(df.shape)
         df = pd.DataFrame(df)
         final_predictions = df.mode(axis=0).values[0]
 
@@ -160,10 +135,12 @@ class RandomForestClassifier:
         """
 
         return [self._predict(row) for row in X_test]
+
     def debug(self, feature_names, class_names, show_details=True):
         """Print ASCII visualization of decision tree."""
 
         [t.tree_.debug(feature_names, class_names, show_details) for t in self.trees]
+
 
 class DecisionTreeClassifier:
     def __init__(self, max_depth=4, min_samples_split=2, criterion='gini', features=None, feature_indices=None):
@@ -173,7 +150,7 @@ class DecisionTreeClassifier:
         self.features = features
         self.feature_indices = feature_indices
 
-    def fit(self, X, y,features):
+    def fit(self, X, y, features):
         """Build decision tree classifier."""
         self.n_classes_ = len(set(y))  # classes are assumed to go from 0 to n-1
         self.n_features_ = X.shape[1]
@@ -182,12 +159,10 @@ class DecisionTreeClassifier:
         return self
 
     def _best_split_mse3(self, X, y):
-
         # Need at least two elements to split a node.
         m = y.size
         if m <= 1:
             return None, None
-
         # Count of each class in the current node.
         num_parent = [np.sum(y == c) for c in range(self.n_classes_)]
 
@@ -247,8 +222,7 @@ class DecisionTreeClassifier:
                     best_split = split_gain
                     best_idx = idx
                     best_thr = (thresholds[i] + thresholds[i - 1]) / 2  # midpoint
-                # print([best_split, split_gain, idx, best_idx])
-        # print([best_idx, best_thr])
+
         return best_idx, best_thr
 
     def _gini(self, y):
@@ -287,7 +261,6 @@ class DecisionTreeClassifier:
                 c = classes[i - 1]
                 num_left[c] += 1
                 num_right[c] -= 1
-                # print(classes)
                 gini_left = 1.0 - sum(
                     (num_left[x] / i) ** 2 for x in range(self.n_classes_)
                 )
@@ -309,7 +282,6 @@ class DecisionTreeClassifier:
                     best_gini = gini
                     best_idx = idx
                     best_thr = (thresholds[i] + thresholds[i - 1]) / 2  # midpoint
-                # print([best_gini, gini , best_idx , idx])
 
         return best_idx, best_thr
 
@@ -333,16 +305,13 @@ class DecisionTreeClassifier:
 
             if idx is not None:
                 indices_left = X[:, idx] < thr
-                # print(indices_left)
-                # print()
-                # print(~indices_left)
                 X_left, y_left = X[indices_left], y[indices_left]
                 X_right, y_right = X[~indices_left], y[~indices_left]
 
                 if len(X[indices_left]) < self.min_samples_split or len(X[~indices_left]) < self.min_samples_split:
                     return node
                 node.feature_index = idx
-                node.threshold = thr  ##TODO add hyperparametre tunning
+                node.threshold = thr
                 node.left = self._grow_tree(X_left, y_left, depth + 1)
                 node.right = self._grow_tree(X_right, y_right, depth + 1)
 
@@ -365,239 +334,3 @@ class DecisionTreeClassifier:
     def debug(self, feature_names, class_names, show_details=True):
         """Print ASCII visualization of decision tree."""
         self.tree_.debug(feature_names, class_names, show_details)
-
-    # def calc_mse(self, targets):
-    #     group_size = np.size(targets, axis=0)
-    #     if group_size == 0:
-    #         return 0
-    #
-    #     predictions = np.mean(targets)
-    #     return np.mean(np.mean((targets - predictions) ** 2)) / group_size
-    #
-    # def _best_split_mse(self, dataset, target):
-    #     # print("Calculating MSE impurity")
-    #     best_split_gain = float("inf")
-    #     best_split_feature = None
-    #     best_split_value = None
-    #     # dataset= pd.DataFrame(data)
-    #     # target = pd.DataFrame(data=targets,columns=['label'])
-    #     # print(dataset)
-    #     for feature in range(0, dataset.shape[1]):
-    #
-    #         if np.unique(dataset[:, feature]).__len__() <= 100:
-    #             unique_values = sorted(np.unique(dataset[:, feature]).tolist())
-    #
-    #         else:
-    #             unique_values = np.unique([np.percentile(dataset[feature], x)
-    #                                        for x in np.linspace(0, 100, 100)])
-    #
-    #         for split_value in unique_values:
-    #
-    #             left_targets = target[dataset[:, feature] <= split_value]
-    #             right_targets = target[dataset[:, feature] > split_value]
-    #             # print(left_targets)
-    #             split_gain = self.calc_mse(left_targets, right_targets)
-    #
-    #             if split_gain < best_split_gain:
-    #                 best_split_feature = feature
-    #                 best_split_value = split_value
-    #                 best_split_gain = split_gain
-    #     # print("Done Calculating MSE impurity!")
-    #     # print(best_split_feature)
-    #     return best_split_feature, best_split_value
-    #
-    # def _best_split_mse2(self, X, y):
-    #
-    #     # Need at least two elements to split a node.
-    #     m = y.size
-    #     if m <= 1:
-    #         return None, None
-    #
-    #     # Count of each class in the current node.
-    #     # Gini of current node.
-    #     best_split = float('inf')
-    #     best_idx, best_thr = None, None
-    #
-    #     # Loop through all features.
-    #     dataset = np.asarray(list((zip(X,y))))
-    #     print(dataset[:,-1])
-    #     for idx in range(self.n_features_):
-    #
-    #         # Sort data along selected feature.
-    #
-    #         for r in dataset:  # possible split positions
-    #
-    #             left, right = list(), list()
-    #             for row in dataset:
-    #                 if row[idx] < r[idx]:
-    #                     left.append(row)
-    #                 else:
-    #                     right.append(row)
-    #
-    #             mse = 0.0
-    #             mser = np.std(right[-1])
-    #             msel = np.std(left[-1])
-    #             split_gain = mser + msel
-    #
-    #
-    #
-    #             if split_gain < best_split:
-    #                 best_split = split_gain
-    #                 best_idx = idx
-    #                 best_thr = r[idx] / 2  # midpoint
-    #             print([best_split, split_gain, idx, best_idx])
-    #
-    #     return best_idx, best_thr
-
-    # def split_node2(self, X, y, index, value):
-    #
-    #     """ Split data set X, y based on a feature and a value
-    #   Args:
-    #   X, y (numpy.ndarray, data set)
-    #   index (int, index of the feature used for splitting)
-    #   value (value of the feature used for splitting)
-    #   Returns:
-    #   list, list: left and right child, a child is in the
-    # format of [X, y]
-    #   """
-    #
-    #     x_index = X[:, index]
-    #     # if this feature is numerical
-    #
-    #     if type(X[0, index]) in [int, float]:
-    #
-    #         mask = x_index >= value
-    #     # if this feature is categorical
-    #     else:
-    #
-    #         mask = x_index == value
-    #     # split into left and right child
-    #
-    #     left = [X[~mask, :], y[~mask]]
-    #
-    #     right = [X[mask, :], y[mask]]
-    #
-    #     return left, right
-
-    # def _test_split(self, index, value, dataset):
-    #     """
-    #     This function splits the data set depending on the feature (index) and
-    #     the splitting value (value)
-    #     Args:
-    #         index (int) : The column index of the feature.
-    #         value (float) : The value to split the data.
-    #         dataset (list) : The list of list representation of the dataframe
-    #     Returns:
-    #         Tupple of the left and right split datasets.
-    #     """
-    #     left, right = list(), list()
-    #     for row in dataset:
-    #         if row[index] < value:
-    #             left.append(row)
-    #         else:
-    #             right.append(row)
-    #     return left, right
-    #
-    # def _mse(self, groups):
-    #     """
-    #     Returns the mse for the split of the dataset into two groups.
-    #     Args:
-    #         groups (list) : List of the two subdatasets after splitting.
-    #     Returns:
-    #         float. mse of the split.
-    #     """
-    #     mse = 0.0
-    #     for group in groups:
-    #         if len(group) == 0:
-    #             continue
-    #         outcomes = [row[-1] for row in group]
-    #         mse += np.std(outcomes)
-    #     return mse
-
-    # def split_node(self, X, y, index, value):
-    #     """ Split data set X, y based on a feature and a value
-    #   Args:
-    #   X, y (numpy.ndarray, data set)
-    #   index (int, index of the feature used for splitting)
-    #   value (value of the feature used for splitting)
-    #   Returns:
-    #   list, list: left and right child, a child is in the
-    # format of [X, y]
-    #   """
-    #
-    #     x_index = X[:, index]
-    #     # if this feature is numerical
-    #
-    #     if type(X[0, index]) in [int, float]:
-    #
-    #         mask = x_index >= value
-    #     # if this feature is categorical
-    #     else:
-    #
-    #         mask = x_index == value
-    #     # split into left and right child
-    #
-    #     left = [X[~mask, :], y[~mask]]
-    #
-    #     right = [X[mask, :], y[mask]]
-    #
-    #     return left, right
-
-
-
-    # def get_best_split(self, X, y):
-    #
-    #     """ Obtain the best splitting point and resulting children
-    # for the data set X, y
-    #   Args:
-    #   X, y (numpy.ndarray, data set)
-    #   criterion (gini or entropy)
-    #   Returns:
-    #   dict {index: index of the feature, value: feature
-    # value, children: left and right children}
-    #   """
-    #
-    #     best_index, best_value, best_score, children = None, None, 1e10, None
-    #     m = y.size
-    #     if m <= 1:
-    #         return None, None
-    #     for index in range(len(X[0])):
-    #
-    #         for value in np.sort(np.unique(X[:, index])):
-    #
-    #             groups = self.split_node2(X, y, index, value)
-    #
-    #             impurity = self.weighted_mse([groups[0][1], groups[1][1]])
-    #             # print([best_index,index])
-    #             # print([best_score,impurity])
-    #             if impurity < best_score:
-    #                 best_index, best_value, best_score, children = index, value, impurity, groups
-    #
-    #     return best_index, best_value
-
-    # def mse(self, targets):
-    #     # When the set is empty
-    #
-    #     if len(targets) == 0:
-    #         return 0
-    #
-    #     return np.var(targets)
-    #
-    # def weighted_mse(self, groups):
-    #
-    #     """ Calculate weighted MSE of children after a split
-    #    Args:
-    #    groups (list of children, and a child consists a list of targets)
-    #    Returns:
-    #    float, weighted impurity
-    #    """
-    #
-    #     total = sum(len(group) for group in groups)
-    #
-    #     weighted_sum = 0.0
-    #
-    #     for group in groups:
-    #         weighted_sum += len(group) / float(total) * self.mse(group)
-    #
-    #     return weighted_sum
-
