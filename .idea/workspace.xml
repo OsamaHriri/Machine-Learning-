@@ -2,37 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="269a319e-fb0c-4217-95ef-d8a00e1c5c8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HW01/Classifier.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW01/Ex1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW01/HW1_312375462_209243526.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW01/Regression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW01/SectionC.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW01/adult_income.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW01/tree.dot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW01/tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW01/תרגיל תכנות_סופי.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW02/תרגיל למידת מכונה 2.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW02/Ex2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW02/data/21/expb.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW02/data/21/expc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW02/data/22/expb.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW02/data/22/expc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW02/data/23/expb.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW02/data/23/expc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW02/data/bycode2018.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW02/data/index 2018.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW02/~$גיל למידת מכונה 2.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classifier.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ex1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Final_output_sklearn.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Regression.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SectionC.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adult_income.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/decisiontreeclassification.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forestclass.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forestression.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/newdata.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sklearnEX.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree.dot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/treregression.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/~$adult_income.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/HW01/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Machine-Learning-HWs" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,6 +53,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HW02/data/23/expc.csv" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -70,49 +61,29 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/HW02/data/23/expc.csv" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Odin\PycharmProjects\Machine-Learning-HWs\python dumb" />
+      <recent name="C:\Users\Odin\PycharmProjects\Machine-Learning-HWs\HW01" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Ex1">
-    <configuration name="Ex1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager">
+    <configuration name="Ex2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Machine-Learning-HWs" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="C:\Users\Odin\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW02" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Machine-Learning-HWs" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Regression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW02/Ex2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,79 +114,9 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="reg2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Machine-Learning-HWs" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Odin\PycharmProjects\Machine-Learning-HWs\Regression.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="sklearnEX" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Machine-Learning-HWs" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sklearnEX.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="zxc" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Machine-Learning-HWs" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Odin\PycharmProjects\Machine-Learning-HWs\python dumb\zxc.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Ex1" />
-        <item itemvalue="Python.Regression" />
-        <item itemvalue="Python.reg2" />
-        <item itemvalue="Python.zxc" />
-        <item itemvalue="Python.sklearnEX" />
+        <item itemvalue="Python.Ex2" />
       </list>
     </recent_temporary>
   </component>
@@ -285,6 +186,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="reordered and added sklearn output" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587857275112">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587857275112" />
     <state x="93" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587737143397">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -294,59 +199,68 @@
     </state>
     <state x="409" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1587735902418" />
     <state x="2534" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587302985001" />
-    <state width="1899" height="868" key="GridCell.Tab.0.bottom" timestamp="1587628503736">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="92" y="92" width="1832" height="856" key="DiffContextDialog" timestamp="1587857115338">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="238" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587209690373" />
+    <state x="92" y="92" width="1832" height="856" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587857115338" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1587857095059">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587857095059" />
+    <state width="1890" height="354" key="GridCell.Tab.0.bottom" timestamp="1588847724208">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1890" height="354" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588847724208" />
     <state width="1899" height="868" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587628503736" />
-    <state width="1899" height="868" key="GridCell.Tab.0.center" timestamp="1587628503736">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1890" height="354" key="GridCell.Tab.0.center" timestamp="1588847724208">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="238" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587209690373" />
+    <state width="1890" height="354" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588847724208" />
     <state width="1899" height="868" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587628503736" />
-    <state width="1899" height="868" key="GridCell.Tab.0.left" timestamp="1587628503736">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1890" height="354" key="GridCell.Tab.0.left" timestamp="1588847724207">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="238" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587209690372" />
+    <state width="1890" height="354" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588847724207" />
     <state width="1899" height="868" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587628503736" />
-    <state width="1899" height="868" key="GridCell.Tab.0.right" timestamp="1587628503736">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1890" height="354" key="GridCell.Tab.0.right" timestamp="1588847724208">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="238" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587209690373" />
+    <state width="1890" height="354" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588847724208" />
     <state width="1899" height="868" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587628503736" />
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1587209675915">
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1587983504687">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587209675915" />
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587983504687" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586879678654" />
-    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1587209675915">
+    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1587983504687">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587209675915" />
+    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587983504687" />
     <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586879678653" />
-    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1587209675915">
+    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1587983504687">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587209675915" />
+    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587983504687" />
     <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586879678653" />
-    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1587209675915">
+    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1587983504687">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587209675915" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587983504687" />
     <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586879678653" />
     <state x="2381" y="162" key="SettingsEditor" timestamp="1586638293331">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2381" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586638293331" />
-    <state x="368" y="147" key="Vcs.Push.Dialog.v2" timestamp="1587735906925">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1587735906925" />
-    <state x="2472" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587302989277" />
-    <state x="565" y="565" key="com.intellij.ide.util.TipDialog" timestamp="1587668518945">
+    <state x="552" y="225" key="Vcs.Push.Dialog.v2" timestamp="1588953092702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="565" y="565" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587668518945" />
+    <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1587735906925" />
+    <state x="552" y="225" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588953092702" />
+    <state x="2472" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587302989277" />
+    <state x="565" y="565" key="com.intellij.ide.util.TipDialog" timestamp="1588953096459">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="565" y="565" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588953096459" />
     <state x="2485" y="565" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586528109603" />
     <state x="2689" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586872401998">
       <screen x="1920" y="0" width="1920" height="1040" />
