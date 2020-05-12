@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="269a319e-fb0c-4217-95ef-d8a00e1c5c8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HW02/Ex2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW02/data/21/expb.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW02/data/21/expc.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW02/data/22/expb.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW02/data/22/expc.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW02/data/23/expb.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW02/data/23/expc.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW02/data/bycode2018.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW02/data/index 2018.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW02/~$גיל למידת מכונה 2.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW02/.ipynb_checkpoints/test-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW02/.ipynb_checkpoints/try1-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW02/.ipynb_checkpoints/try2-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW02/data/new.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW02/test.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW02/try1.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/HW01/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW02/Ex2.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW02/Ex2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW02/data/bycode2018.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/HW02/data/bycode2018.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW02/try2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/HW02/try2.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jupyter Notebook" />
         <option value="Python Script" />
       </list>
     </option>
@@ -39,6 +37,7 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="276b59d8-aef5-4eea-862c-8b999b68dc95" />
   <component name="ProjectId" id="1aGI0eNpRjrZaNYulavxPEJz6iW" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -65,11 +64,12 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nareed\OneDrive - University of Haifa\ShitToDo\MLHWs\HW02" />
       <recent name="C:\Users\Odin\PycharmProjects\Machine-Learning-HWs\python dumb" />
       <recent name="C:\Users\Odin\PycharmProjects\Machine-Learning-HWs\HW01" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Section3">
     <configuration name="Ex2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Machine-Learning-HWs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,6 +86,28 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW02/Ex2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Section3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Machine-Learning-HWs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW02" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW02/Section3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -116,6 +138,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Section3" />
         <item itemvalue="Python.Ex2" />
       </list>
     </recent_temporary>
@@ -144,6 +167,10 @@
       <updated>1586355281677</updated>
       <workItem from="1587729407003" duration="6686000" />
       <workItem from="1587737021954" duration="260000" />
+      <workItem from="1588953356427" duration="610000" />
+      <workItem from="1589017071623" duration="1227000" />
+      <workItem from="1589028116155" duration="3967000" />
+      <workItem from="1589119182005" duration="32000" />
     </task>
     <task id="LOCAL-00001" summary="bug fix">
       <created>1586355373210</created>
@@ -173,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587735903164</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="cluster and graphs">
+      <created>1589031732864</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589031732864</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +217,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="bug fix" />
     <MESSAGE value="reordered and added sklearn output" />
-    <option name="LAST_COMMIT_MESSAGE" value="reordered and added sklearn output" />
+    <MESSAGE value="cluster and graphs" />
+    <option name="LAST_COMMIT_MESSAGE" value="cluster and graphs" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587857275112">
@@ -194,10 +229,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="93" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1587737143397" />
-    <state x="409" y="0" key="CommitChangelistDialog2" timestamp="1587735902418">
+    <state x="409" y="0" key="CommitChangelistDialog2" timestamp="1589031732061">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="409" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1587735902418" />
+    <state x="409" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1589031732061" />
     <state x="2534" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587302985001" />
     <state x="92" y="92" width="1832" height="856" key="DiffContextDialog" timestamp="1587857115338">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -207,54 +242,62 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587857095059" />
-    <state width="1890" height="354" key="GridCell.Tab.0.bottom" timestamp="1588847724208">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="204" key="GridCell.Tab.0.bottom" timestamp="1589033929605">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1237" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589033929605" />
     <state width="1890" height="354" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588847724208" />
     <state width="1899" height="868" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587628503736" />
-    <state width="1890" height="354" key="GridCell.Tab.0.center" timestamp="1588847724208">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="204" key="GridCell.Tab.0.center" timestamp="1589033929605">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1237" height="204" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589033929605" />
     <state width="1890" height="354" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588847724208" />
     <state width="1899" height="868" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587628503736" />
-    <state width="1890" height="354" key="GridCell.Tab.0.left" timestamp="1588847724207">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="204" key="GridCell.Tab.0.left" timestamp="1589033929605">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1237" height="204" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589033929605" />
     <state width="1890" height="354" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588847724207" />
     <state width="1899" height="868" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587628503736" />
-    <state width="1890" height="354" key="GridCell.Tab.0.right" timestamp="1588847724208">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="204" key="GridCell.Tab.0.right" timestamp="1589033929605">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1237" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589033929605" />
     <state width="1890" height="354" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588847724208" />
     <state width="1899" height="868" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587628503736" />
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1587983504687">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1589033929605">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589033929605" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587983504687" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586879678654" />
-    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1587983504687">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1589033929605">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1589033929605" />
     <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587983504687" />
     <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586879678653" />
-    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1587983504687">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1589033929605">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1589033929605" />
     <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587983504687" />
     <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586879678653" />
-    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1587983504687">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1589033929605">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1589033929605" />
     <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587983504687" />
     <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586879678653" />
     <state x="2381" y="162" key="SettingsEditor" timestamp="1586638293331">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2381" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586638293331" />
-    <state x="552" y="225" key="Vcs.Push.Dialog.v2" timestamp="1588953092702">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="368" y="147" key="Vcs.Push.Dialog.v2" timestamp="1589031735559">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1587735906925" />
+    <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1589031735559" />
     <state x="552" y="225" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588953092702" />
     <state x="2472" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587302989277" />
     <state x="565" y="565" key="com.intellij.ide.util.TipDialog" timestamp="1588953096459">
@@ -262,6 +305,10 @@
     </state>
     <state x="565" y="565" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588953096459" />
     <state x="2485" y="565" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586528109603" />
+    <state x="314" y="20" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589029652017">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="314" y="20" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.680@0.0.1280.680" timestamp="1589029652017" />
     <state x="2689" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586872401998">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -278,5 +325,8 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586879569311" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MLHWs$Section3.coverage" NAME="Section3 Coverage Results" MODIFIED="1589030632981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HW02" />
   </component>
 </project>
