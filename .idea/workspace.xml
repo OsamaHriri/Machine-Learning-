@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="269a319e-fb0c-4217-95ef-d8a00e1c5c8b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/HW02/.ipynb_checkpoints/final-checkpoint.ipynb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/HW02/.ipynb_checkpoints/test-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW02/.ipynb_checkpoints/try1-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW02/.ipynb_checkpoints/try2-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW02/data/new.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW02/final.ipynb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/HW02/test.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW02/try1.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW02/Ex2.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW02/Ex2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW02/.ipynb_checkpoints/try1-checkpoint.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/HW02/data/bycode2018.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/HW02/data/bycode2018.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW02/try1.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/HW02/try2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/HW02/try2.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/HW02/data/23/expc.csv" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/final.ipynb" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -69,7 +68,51 @@
       <recent name="C:\Users\Odin\PycharmProjects\Machine-Learning-HWs\HW01" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Section3">
+  <component name="RunManager" selected="Python.Ex2Q4">
+    <configuration name="EX2Q3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Machine-Learning-HWs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW02" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW02/EX2Q3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="EX2Q5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Machine-Learning-HWs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW02" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW02/EX2Q5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Ex2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Machine-Learning-HWs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,6 +129,28 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW02/Ex2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Ex2Q4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Machine-Learning-HWs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW02" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW02/Ex2Q4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -138,6 +203,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Ex2Q4" />
+        <item itemvalue="Python.EX2Q5" />
+        <item itemvalue="Python.EX2Q3" />
         <item itemvalue="Python.Section3" />
         <item itemvalue="Python.Ex2" />
       </list>
@@ -171,6 +239,13 @@
       <workItem from="1589017071623" duration="1227000" />
       <workItem from="1589028116155" duration="3967000" />
       <workItem from="1589119182005" duration="32000" />
+      <workItem from="1589297712013" duration="161000" />
+      <workItem from="1589315300979" duration="113000" />
+      <workItem from="1589361084897" duration="211000" />
+      <workItem from="1589390233561" duration="6436000" />
+      <workItem from="1589438398062" duration="638000" />
+      <workItem from="1589537253688" duration="621000" />
+      <workItem from="1589651031003" duration="2060000" />
     </task>
     <task id="LOCAL-00001" summary="bug fix">
       <created>1586355373210</created>
@@ -207,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589031732864</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="stuff">
+      <created>1589297801523</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589297801523</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +300,8 @@
     <MESSAGE value="bug fix" />
     <MESSAGE value="reordered and added sklearn output" />
     <MESSAGE value="cluster and graphs" />
-    <option name="LAST_COMMIT_MESSAGE" value="cluster and graphs" />
+    <MESSAGE value="stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="stuff" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587857275112">
@@ -229,18 +312,19 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="93" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1587737143397" />
-    <state x="409" y="0" key="CommitChangelistDialog2" timestamp="1589031732061">
+    <state x="318" y="0" key="CommitChangelistDialog2" timestamp="1589297799956">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="409" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1589031732061" />
+    <state x="318" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1589297799956" />
     <state x="2534" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587302985001" />
     <state x="92" y="92" width="1832" height="856" key="DiffContextDialog" timestamp="1587857115338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1832" height="856" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587857115338" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1587857095059">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="411" y="63" key="FileChooserDialogImpl" timestamp="1589651068956">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="411" y="63" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1589651068956" />
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587857095059" />
     <state width="1237" height="204" key="GridCell.Tab.0.bottom" timestamp="1589033929605">
       <screen x="0" y="0" width="1280" height="680" />
@@ -290,14 +374,18 @@
     <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1589033929605" />
     <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1587983504687" />
     <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586879678653" />
+    <state x="354" y="57" key="MultipleFileMergeDialog" timestamp="1589297829054">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="354" y="57" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1589297829054" />
     <state x="2381" y="162" key="SettingsEditor" timestamp="1586638293331">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2381" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586638293331" />
-    <state x="368" y="147" key="Vcs.Push.Dialog.v2" timestamp="1589031735559">
+    <state x="368" y="147" key="Vcs.Push.Dialog.v2" timestamp="1589297803952">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1589031735559" />
+    <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1589297803952" />
     <state x="552" y="225" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588953092702" />
     <state x="2472" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587302989277" />
     <state x="565" y="565" key="com.intellij.ide.util.TipDialog" timestamp="1588953096459">
