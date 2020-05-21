@@ -31,6 +31,7 @@ def main():
 
     df3['שנת ייסוד'] = df3['שנת ייסוד'].fillna(np.round(df3['שנת ייסוד'].mean()))
     df3['שנת ייסוד'] = df3['שנת ייסוד'].replace('ותיק', 9999)
+
     for col in ['יהודים ואחרים', 'מזה: יהודים', 'ערבים']:
         df3[col] = df3[col].fillna(np.round(df3[col].mean()))
 

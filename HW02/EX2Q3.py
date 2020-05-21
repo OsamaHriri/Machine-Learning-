@@ -155,6 +155,7 @@ def main():
     data.columns = ['Top-5 parties by % of votes in the cluster',
                     'The biggest (of The Top-50) cities in the cluster',
                     'All cities in the clust (amount)']
+    data.to_csv('data.csv')
 
 
 if __name__ == '__main__':

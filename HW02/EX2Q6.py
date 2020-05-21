@@ -73,16 +73,19 @@ def main():
 
     y_pred = clf.predict(X_test)
     print("Accuracy:", metrics.accuracy_score(y_test, y_pred))
-    df23 = df23[df23.columns[0:7]]
-    df41 = df23.join(df3.set_index(['סמל יישוב'], verify_integrity=True),
+    df233 = df23[df23.columns[0:7]].copy()
+    df41 = df233.join(df3.set_index(['סמל יישוב'], verify_integrity=True),
                    on=['סמל ישוב'], how='inner')
 
     df41 = df41.fillna(0)
+
     X_real_test = df41.drop(cols_to_drop,axis =1 )
+
     X_real_test = X_real_test.drop('פסולים',axis=1)
+
     Y_real_test = df41['פסולים'] > thershold
-    print(X_real_test.columns)
-    print(X_real_test.shape)
+    # print(X_real_test.columns)
+
     #
     # print(X_real_test.head())
     # print(Y_real_test)
@@ -92,17 +95,14 @@ def main():
     print("Accuracy:", metrics.accuracy_score(Y_real_test, y_pred))
 
 
+
+    print(df41['שם ישוב'][y_pred])
+
     CM = confusion_matrix(Y_real_test, y_pred)
-    print(CM)
+
     sns.heatmap(CM)
     plt.show()
-    corr = X.corr()
-    plt.figure(figsize=(10, 10))
 
-    sns.heatmap(corr, vmax=.8, linewidths=0.01,
-                square=True, annot=True, cmap='YlGnBu', linecolor="white")
-    plt.title('Correlation between features');
-    plt.show()
 
 if __name__ == '__main__':
     main()
