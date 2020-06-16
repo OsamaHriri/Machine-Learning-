@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="269a319e-fb0c-4217-95ef-d8a00e1c5c8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HW02/.ipynb_checkpoints/final-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW02/.ipynb_checkpoints/test-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW02/final.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW02/test.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW02/.ipynb_checkpoints/try1-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW02/data/bycode2018.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/HW02/data/bycode2018.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW02/try1.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW02/try2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/HW02/try2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW02/EX2Q6.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW02/EX2Q6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW02/df3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/HW02/df3.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +62,7 @@
       <recent name="C:\Users\Odin\PycharmProjects\Machine-Learning-HWs\HW01" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Ex2Q4">
+  <component name="RunManager" selected="Python.EX2Q6">
     <configuration name="EX2Q3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Machine-Learning-HWs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,22 +107,22 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Ex2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="EX2Q6" type="PythonConfigurationType" factoryName="Python">
       <module name="Machine-Learning-HWs" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\Odin\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW02" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW02/Ex2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW02/EX2Q6.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -207,7 +201,6 @@
         <item itemvalue="Python.EX2Q5" />
         <item itemvalue="Python.EX2Q3" />
         <item itemvalue="Python.Section3" />
-        <item itemvalue="Python.Ex2" />
       </list>
     </recent_temporary>
   </component>
@@ -289,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589297801523</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="stuff">
+      <created>1590068459307</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1590068459307</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,11 +312,12 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="93" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1587737143397" />
-    <state x="318" y="0" key="CommitChangelistDialog2" timestamp="1589297799956">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="477" y="0" key="CommitChangelistDialog2" timestamp="1592307891096">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="318" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1589297799956" />
     <state x="2534" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587302985001" />
+    <state x="477" y="0" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1592307891096" />
     <state x="92" y="92" width="1832" height="856" key="DiffContextDialog" timestamp="1587857115338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -382,18 +383,19 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2381" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586638293331" />
-    <state x="292" y="390" key="Vcs.Push.Dialog.v2" timestamp="1590068446259">
+    <state x="292" y="390" key="Vcs.Push.Dialog.v2" timestamp="1592307897245">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1589297803952" />
     <state x="552" y="225" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588953092702" />
     <state x="2472" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587302989277" />
-    <state x="292" y="390" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1590068446259" />
-    <state x="565" y="565" key="com.intellij.ide.util.TipDialog" timestamp="1588953096459">
+    <state x="292" y="390" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1592307897245" />
+    <state x="565" y="565" key="com.intellij.ide.util.TipDialog" timestamp="1590587027445">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="565" y="565" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588953096459" />
     <state x="2485" y="565" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586528109603" />
+    <state x="565" y="565" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1590587027445" />
     <state x="314" y="20" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589029652017">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -406,10 +408,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="630" y="58" width="1759" height="718" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1586789712223" />
-    <state x="2571" y="311" key="git4idea.merge.GitPullDialog" timestamp="1587302674100">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="651" y="311" key="git4idea.merge.GitPullDialog" timestamp="1592307917354">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="2571" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587302674100" />
+    <state x="651" y="311" key="git4idea.merge.GitPullDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1592307917354" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1586879569311">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
