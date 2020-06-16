@@ -47,7 +47,7 @@ def main():
     sorted = sorted['פסולים']
     sorted = sorted.sort_values(ascending=False)
     # Top n% of the values
-    n = 10
+    n = 50
     thershold = np.round(sorted.head(int(len(sorted) * (n / 100))).iloc[-1])
     print(thershold)
     df4['label'] = df4['פסולים'] > thershold
@@ -59,8 +59,9 @@ def main():
     print(y.shape)
     print(X.shape)
 
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
-
+    # X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
+    X_train = X
+    y_train = y
     clf = RandomForestClassifier(n_estimators=100)
 
     clf.fit(X_train, y_train)
@@ -71,8 +72,7 @@ def main():
         print("%s.  (%f)" % (X_train.columns[f], importances[indices[f]]))
 
 
-    y_pred = clf.predict(X_test)
-    print("Accuracy:", metrics.accuracy_score(y_test, y_pred))
+
     df233 = df23[df23.columns[0:7]].copy()
     df41 = df233.join(df3.set_index(['סמל יישוב'], verify_integrity=True),
                    on=['סמל ישוב'], how='inner')
