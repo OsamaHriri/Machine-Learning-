@@ -2,7 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="269a319e-fb0c-4217-95ef-d8a00e1c5c8b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/HW03-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/HW03-checkpoint.text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW03.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW03.text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW03/AdaBoostClassifier.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW03/BaggingClassifier.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW03/KNeighborsClassifier.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW03/LinearSVC.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW03/NuSVC.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW03/RandomForestClassifier.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW03/SVC.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW03/logs/fit/20200624-164432/train/events.out.tfevents.1593006273.DESKTOP-UL47VD4.8256.202.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW03/logs/fit/20200624-164432/train/events.out.tfevents.1593006276.DESKTOP-UL47VD4.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW03/logs/fit/20200624-164432/train/plugins/profile/2020_06_24_13_44_36/DESKTOP-UL47VD4.input_pipeline.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW03/logs/fit/20200624-164432/train/plugins/profile/2020_06_24_13_44_36/DESKTOP-UL47VD4.kernel_stats.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW03/logs/fit/20200624-164432/train/plugins/profile/2020_06_24_13_44_36/DESKTOP-UL47VD4.overview_page.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW03/logs/fit/20200624-164432/train/plugins/profile/2020_06_24_13_44_36/DESKTOP-UL47VD4.tensorflow_stats.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW03/logs/fit/20200624-164432/train/plugins/profile/2020_06_24_13_44_36/DESKTOP-UL47VD4.trace.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW03/logs/fit/20200624-164432/validation/events.out.tfevents.1593006277.DESKTOP-UL47VD4.8256.1443.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW03/logs/fit/20200624-202826/train/events.out.tfevents.1593019707.DESKTOP-UL47VD4.15464.202.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW03/logs/fit/20200624-203014/train/events.out.tfevents.1593019815.DESKTOP-UL47VD4.11568.202.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW03/nn.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW03/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/HW03/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW03/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/HW03/Untitled.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +80,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Odin\PycharmProjects\Machine-Learning-HWs\HW03" />
       <recent name="C:\Users\Nareed\OneDrive - University of Haifa\ShitToDo\MLHWs\HW02" />
       <recent name="C:\Users\Odin\PycharmProjects\Machine-Learning-HWs\python dumb" />
       <recent name="C:\Users\Odin\PycharmProjects\Machine-Learning-HWs\HW01" />
@@ -315,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592763405670</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="HW3">
+      <created>1592763850302</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1592763850302</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,12 +373,12 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="93" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1587737143397" />
-    <state x="477" y="0" key="CommitChangelistDialog2" timestamp="1592763405182">
+    <state x="477" y="0" key="CommitChangelistDialog2" timestamp="1592763849900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="318" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1590102855152" />
     <state x="2534" y="115" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587302985001" />
-    <state x="477" y="0" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1592763405182" />
+    <state x="477" y="0" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1592763849900" />
     <state x="92" y="92" width="1832" height="856" key="DiffContextDialog" timestamp="1587857115338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -422,18 +454,19 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2381" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586638293331" />
-    <state x="552" y="225" key="Vcs.Push.Dialog.v2" timestamp="1592763540390">
+    <state x="552" y="225" key="Vcs.Push.Dialog.v2" timestamp="1592763857605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1590102764028" />
     <state x="552" y="225" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588953092702" />
     <state x="2472" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587302989277" />
-    <state x="552" y="225" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1592763540390" />
-    <state x="565" y="565" key="com.intellij.ide.util.TipDialog" timestamp="1588953096459">
+    <state x="552" y="225" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1592763857605" />
+    <state x="565" y="565" key="com.intellij.ide.util.TipDialog" timestamp="1593019621128">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="565" y="565" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588953096459" />
     <state x="2485" y="565" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1586528109603" />
+    <state x="565" y="565" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593019621128" />
     <state x="314" y="20" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589029652017">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
