@@ -13,4 +13,4 @@ The notebook (or the extracted HTML) contains the following 6 sections:
 ### A Peak into the results
 
 #### Clustering
-![clustering on map](/img/clustering_mapjpg.jpg)
+![clustering on map](/img/clustering_map.jpg)
