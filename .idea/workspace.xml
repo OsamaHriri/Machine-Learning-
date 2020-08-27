@@ -2,16 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="269a319e-fb0c-4217-95ef-d8a00e1c5c8b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assignment03/.ipynb_checkpoints/NareedsChanges-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment03/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment03/Final.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment03/Untitled.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment03/input/gender_submission.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment03/input/test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment03/input/train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment03/output/AdaBoostClassifier.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment03/output/BaggingClassifier.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment03/output/GridSearchCV.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment03/output/KNeighborsClassifier.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment03/output/LinearSVC.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment03/output/NuSVC.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment03/output/RandomForestClassifier.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment03/output/SVC.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment03/output/Sequential.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment03/output/XGBClassifier.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment03/תרגיל למידת מכונה 3 (1).docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW03/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/HW03/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW03/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/HW03/Untitled.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW03/output/AdaBoostClassifier.csv" beforeDir="false" afterPath="$PROJECT_DIR$/HW03/output/AdaBoostClassifier.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW03/output/BaggingClassifier.csv" beforeDir="false" afterPath="$PROJECT_DIR$/HW03/output/BaggingClassifier.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW03/output/KNeighborsClassifier.csv" beforeDir="false" afterPath="$PROJECT_DIR$/HW03/output/KNeighborsClassifier.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW03/output/RandomForestClassifier.csv" beforeDir="false" afterPath="$PROJECT_DIR$/HW03/output/RandomForestClassifier.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW03/output/Sequential.csv" beforeDir="false" afterPath="$PROJECT_DIR$/HW03/output/Sequential.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW03/output/XGBClassifier.csv" beforeDir="false" afterPath="$PROJECT_DIR$/HW03/output/XGBClassifier.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW03/תרגיל למידת מכונה 3 (1).docx" beforeDir="false" afterPath="$PROJECT_DIR$/HW03/תרגיל למידת מכונה 3 (1).docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW03/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW03/Untitled.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW03/input/gender_submission.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW03/input/test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW03/input/train.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW03/output/AdaBoostClassifier.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW03/output/BaggingClassifier.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW03/output/KNeighborsClassifier.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW03/output/LinearSVC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW03/output/NuSVC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW03/output/RandomForestClassifier.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW03/output/SVC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW03/output/Sequential.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW03/output/XGBClassifier.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW03/titanic.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW03/תרגיל למידת מכונה 3 (1).docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python dumb/regression1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python dumb/try.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python dumb/try2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python dumb/zxc.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +94,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nareed\OneDrive - University of Haifa\ShitToDo\MLHWs\Assignment02" />
       <recent name="C:\Users\Odin\PycharmProjects\Machine-Learning-HWs\HW03" />
       <recent name="C:\Users\Nareed\OneDrive - University of Haifa\ShitToDo\MLHWs\HW02" />
       <recent name="C:\Users\Odin\PycharmProjects\Machine-Learning-HWs\python dumb" />
@@ -257,7 +287,7 @@
       <workItem from="1593114597169" duration="37000" />
       <workItem from="1593296349036" duration="114000" />
       <workItem from="1598524759089" duration="2001000" />
-      <workItem from="1598529761167" duration="1592000" />
+      <workItem from="1598529761167" duration="3909000" />
     </task>
     <task id="LOCAL-00001" summary="bug fix">
       <created>1586355373210</created>
@@ -350,7 +380,21 @@
       <option name="project" value="LOCAL" />
       <updated>1598534758826</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Rearranged README.md">
+      <created>1598534993237</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1598534993237</updated>
+    </task>
+    <task id="LOCAL-00015" summary="added result png">
+      <created>1598535125899</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1598535125899</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,13 +411,15 @@
     <MESSAGE value="HW3" />
     <MESSAGE value="Rearranged Assignment 01 files" />
     <MESSAGE value="Rearranged Assignment 02 files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rearranged Assignment 02 files" />
+    <MESSAGE value="Rearranged README.md" />
+    <MESSAGE value="added result png" />
+    <option name="LAST_COMMIT_MESSAGE" value="added result png" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="213" y="0" key="CommitChangelistDialog2" timestamp="1598534992358">
+    <state x="213" y="0" key="CommitChangelistDialog2" timestamp="1598535125118">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="213" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1598534992358" />
+    <state x="213" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1598535125118" />
     <state x="477" y="0" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1592763849900" />
     <state x="278" y="69" key="MergeDialog" timestamp="1592762846951">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -393,10 +439,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1598529816799" />
-    <state x="368" y="147" key="Vcs.Push.Dialog.v2" timestamp="1598534994958">
+    <state x="368" y="147" key="Vcs.Push.Dialog.v2" timestamp="1598535127123">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1598534994958" />
+    <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1598535127123" />
     <state x="552" y="225" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1592763857605" />
     <state x="565" y="565" key="com.intellij.ide.util.TipDialog" timestamp="1593019621128">
       <screen x="0" y="0" width="1920" height="1040" />
