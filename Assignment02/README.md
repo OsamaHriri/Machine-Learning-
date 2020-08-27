@@ -10,7 +10,14 @@ The notebook (or the extracted HTML) contains the following 6 sections:
 6. Imagin the country has extra fundings and wants to place guards in cities that have a high number of illegal votes for the last elections, where should they place them?
 
 
-### A Peak into the results
+### A Peek into the results
 
 #### Clustering
-![clustering on map](/img/map.png)
+![clustering on map](/Assignment02/img/map.png)
+
+#### Predicting # of legal votes
+![clustering on map](/Assignment02/img/section4.jpg)
+![clustering on map](/Assignment02/img/section4results.jpg)
+
+#### Predicting # of of votes per party in 5 different cities
+![clustering on map](/Assignment02/img/section5.jpg)
