@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="269a319e-fb0c-4217-95ef-d8a00e1c5c8b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW02/EX2Q3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW02/EX2Q5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW02/EX2Q6.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW02/Ex2Q4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW02/data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW02/df3.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW02/dump.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/HW03/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/HW03/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW03/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/HW03/Untitled.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW03/output/AdaBoostClassifier.csv" beforeDir="false" afterPath="$PROJECT_DIR$/HW03/output/AdaBoostClassifier.csv" afterDir="false" />
@@ -264,7 +257,7 @@
       <workItem from="1593114597169" duration="37000" />
       <workItem from="1593296349036" duration="114000" />
       <workItem from="1598524759089" duration="2001000" />
-      <workItem from="1598529761167" duration="1406000" />
+      <workItem from="1598529761167" duration="1592000" />
     </task>
     <task id="LOCAL-00001" summary="bug fix">
       <created>1586355373210</created>
@@ -350,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598529902817</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Rearranged Assignment 02 files">
+      <created>1598534758826</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1598534758826</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,13 +366,14 @@
     <MESSAGE value="FinalHW2" />
     <MESSAGE value="HW3" />
     <MESSAGE value="Rearranged Assignment 01 files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rearranged Assignment 01 files" />
+    <MESSAGE value="Rearranged Assignment 02 files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rearranged Assignment 02 files" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="213" y="0" key="CommitChangelistDialog2" timestamp="1598529901157">
+    <state x="213" y="0" key="CommitChangelistDialog2" timestamp="1598534756993">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="213" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1598529901157" />
+    <state x="213" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1598534756993" />
     <state x="477" y="0" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1592763849900" />
     <state x="278" y="69" key="MergeDialog" timestamp="1592762846951">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -392,19 +393,19 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1598529816799" />
-    <state x="552" y="225" key="Vcs.Push.Dialog.v2" timestamp="1592763857605">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="368" y="147" key="Vcs.Push.Dialog.v2" timestamp="1598534776016">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1590102764028" />
+    <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1598534776016" />
     <state x="552" y="225" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1592763857605" />
     <state x="565" y="565" key="com.intellij.ide.util.TipDialog" timestamp="1593019621128">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="565" y="565" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593019621128" />
-    <state x="770" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592763193463">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="513" y="285" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598534928723">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="513" y="285" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1590102807483" />
+    <state x="513" y="285" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1598534928723" />
     <state x="770" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1592763193463" />
     <state x="710" y="311" key="git4idea.merge.GitMergeDialog" timestamp="1592763208993">
       <screen x="0" y="0" width="1920" height="1040" />
