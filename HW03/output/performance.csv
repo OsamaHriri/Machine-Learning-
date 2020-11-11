@@ -1,0 +1,10 @@
+model,score
+AdaBoostClassifier,0.55023
+BaggingClassifier,0.72248
+KNeighborsClassifier,0.73205
+LinearSVC,0.76076
+NuSVC,0.76555
+RandomForestClassifier,0.60287
+Sequential,0.78947
+SVC,0.75598
+XGBClassifier,0.72727
