@@ -1,0 +1,635 @@
+reg forest
+['age', 'workclass', 'marital-status', 'relationship', 'race', 'sex', 'capital-gain', 'capital-loss', 'hours-per-week', 'native-country'] education-num
+Training 90 Models
+<Regression.RandomForestRegressor object at 0x000001DFBAFF8710>
+Training Model Number: 1 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 5, 'min_samples_split': 2, 'max_depth': 2}
+Current Best Paramaters : None
+Current Best Acc :{} inf
+Elapsed Time : {} 00:00:01
+<Regression.RandomForestRegressor object at 0x000001DFBAFF84E0>
+Training Model Number: 2 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 5, 'min_samples_split': 2, 'max_depth': 4}
+Current Best Paramaters : {'max_features': None, 'n_trees': 5, 'min_samples_split': 2, 'max_depth': 2}
+Current Best Acc :{} 6.194005935779566
+Elapsed Time : {} 00:00:04
+<Regression.RandomForestRegressor object at 0x000001DFBAFF8748>
+Training Model Number: 3 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 5, 'min_samples_split': 2, 'max_depth': 6}
+Current Best Paramaters : {'max_features': None, 'n_trees': 5, 'min_samples_split': 2, 'max_depth': 4}
+Current Best Acc :{} 5.8042969186460756
+Elapsed Time : {} 00:00:03
+<Regression.RandomForestRegressor object at 0x000001DFBAFF85C0>
+Training Model Number: 4 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 5, 'min_samples_split': 2, 'max_depth': 8}
+Current Best Paramaters : {'max_features': None, 'n_trees': 5, 'min_samples_split': 2, 'max_depth': 6}
+Current Best Acc :{} 5.563640860820489
+Elapsed Time : {} 00:00:06
+<Regression.RandomForestRegressor object at 0x000001DFBAFF8978>
+Training Model Number: 5 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 5, 'min_samples_split': 2, 'max_depth': 16}
+Current Best Paramaters : {'max_features': None, 'n_trees': 5, 'min_samples_split': 2, 'max_depth': 8}
+Current Best Acc :{} 5.515495249619651
+Elapsed Time : {} 00:00:00
+<Regression.RandomForestRegressor object at 0x000001DFBAFF8048>
+Training Model Number: 6 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 5, 'min_samples_split': 100, 'max_depth': 2}
+Current Best Paramaters : {'max_features': None, 'n_trees': 5, 'min_samples_split': 2, 'max_depth': 8}
+Current Best Acc :{} 5.515495249619651
+Elapsed Time : {} 00:00:00
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0F98>
+Training Model Number: 7 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 5, 'min_samples_split': 100, 'max_depth': 4}
+Current Best Paramaters : {'max_features': None, 'n_trees': 5, 'min_samples_split': 2, 'max_depth': 8}
+Current Best Acc :{} 5.515495249619651
+Elapsed Time : {} 00:00:04
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0E80>
+Training Model Number: 8 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 5, 'min_samples_split': 100, 'max_depth': 6}
+Current Best Paramaters : {'max_features': None, 'n_trees': 5, 'min_samples_split': 2, 'max_depth': 8}
+Current Best Acc :{} 5.515495249619651
+Elapsed Time : {} 00:00:06
+<Regression.RandomForestRegressor object at 0x000001DFBAFD02B0>
+Training Model Number: 9 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 5, 'min_samples_split': 100, 'max_depth': 8}
+Current Best Paramaters : {'max_features': None, 'n_trees': 5, 'min_samples_split': 2, 'max_depth': 8}
+Current Best Acc :{} 5.515495249619651
+Elapsed Time : {} 00:00:01
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0D30>
+Training Model Number: 10 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 5, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Paramaters : {'max_features': None, 'n_trees': 5, 'min_samples_split': 2, 'max_depth': 8}
+Current Best Acc :{} 5.515495249619651
+Elapsed Time : {} 00:00:09
+<Regression.RandomForestRegressor object at 0x000001DFBAFF84A8>
+Training Model Number: 11 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 5, 'min_samples_split': 200, 'max_depth': 2}
+Current Best Paramaters : {'max_features': None, 'n_trees': 5, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.355505979855778
+Elapsed Time : {} 00:00:00
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0B70>
+Training Model Number: 12 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 5, 'min_samples_split': 200, 'max_depth': 4}
+Current Best Paramaters : {'max_features': None, 'n_trees': 5, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.355505979855778
+Elapsed Time : {} 00:00:05
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0A58>
+Training Model Number: 13 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 5, 'min_samples_split': 200, 'max_depth': 6}
+Current Best Paramaters : {'max_features': None, 'n_trees': 5, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.355505979855778
+Elapsed Time : {} 00:00:01
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0978>
+Training Model Number: 14 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 5, 'min_samples_split': 200, 'max_depth': 8}
+Current Best Paramaters : {'max_features': None, 'n_trees': 5, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.355505979855778
+Elapsed Time : {} 00:00:10
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0898>
+Training Model Number: 15 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 5, 'min_samples_split': 200, 'max_depth': 16}
+Current Best Paramaters : {'max_features': None, 'n_trees': 5, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.355505979855778
+Elapsed Time : {} 00:00:03
+<Regression.RandomForestRegressor object at 0x000001DFBAFD07B8>
+Training Model Number: 16 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 2, 'max_depth': 2}
+Current Best Paramaters : {'max_features': None, 'n_trees': 5, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.355505979855778
+Elapsed Time : {} 00:00:07
+<Regression.RandomForestRegressor object at 0x000001DFBAFD05C0>
+Training Model Number: 17 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 2, 'max_depth': 4}
+Current Best Paramaters : {'max_features': None, 'n_trees': 5, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.355505979855778
+Elapsed Time : {} 00:00:05
+<Regression.RandomForestRegressor object at 0x000001DFBAFD04E0>
+Training Model Number: 18 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 2, 'max_depth': 6}
+Current Best Paramaters : {'max_features': None, 'n_trees': 5, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.355505979855778
+Elapsed Time : {} 00:00:02
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0400>
+Training Model Number: 19 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 2, 'max_depth': 8}
+Current Best Paramaters : {'max_features': None, 'n_trees': 5, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.355505979855778
+Elapsed Time : {} 00:00:12
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0320>
+Training Model Number: 20 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 2, 'max_depth': 16}
+Current Best Paramaters : {'max_features': None, 'n_trees': 5, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.355505979855778
+Elapsed Time : {} 00:00:26
+<Regression.RandomForestRegressor object at 0x000001DFBAFF8908>
+Training Model Number: 21 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 2}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 2, 'max_depth': 16}
+Current Best Acc :{} 5.347431252246117
+Elapsed Time : {} 00:00:06
+<Regression.RandomForestRegressor object at 0x000001DFBAFF8748>
+Training Model Number: 22 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 4}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 2, 'max_depth': 16}
+Current Best Acc :{} 5.347431252246117
+Elapsed Time : {} 00:00:03
+<Regression.RandomForestRegressor object at 0x000001DFBAFF8080>
+Training Model Number: 23 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 6}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 2, 'max_depth': 16}
+Current Best Acc :{} 5.347431252246117
+Elapsed Time : {} 00:00:10
+<Regression.RandomForestRegressor object at 0x000001DFBAFF85C0>
+Training Model Number: 24 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 8}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 2, 'max_depth': 16}
+Current Best Acc :{} 5.347431252246117
+Elapsed Time : {} 00:00:04
+<Regression.RandomForestRegressor object at 0x000001DFBAFF8668>
+Training Model Number: 25 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 2, 'max_depth': 16}
+Current Best Acc :{} 5.347431252246117
+Elapsed Time : {} 00:00:26
+<Regression.RandomForestRegressor object at 0x000001DFBAFF8470>
+Training Model Number: 26 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 200, 'max_depth': 2}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:00
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0F28>
+Training Model Number: 27 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 200, 'max_depth': 4}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:00
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0E10>
+Training Model Number: 28 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 200, 'max_depth': 6}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:03
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0278>
+Training Model Number: 29 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 200, 'max_depth': 8}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:04
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0BA8>
+Training Model Number: 30 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 200, 'max_depth': 16}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:28
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0A90>
+Training Model Number: 31 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 15, 'min_samples_split': 2, 'max_depth': 2}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:04
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0978>
+Training Model Number: 32 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 15, 'min_samples_split': 2, 'max_depth': 4}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:01
+<Regression.RandomForestRegressor object at 0x000001DFBAFD06D8>
+Training Model Number: 33 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 15, 'min_samples_split': 2, 'max_depth': 6}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:06
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0710>
+Training Model Number: 34 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 15, 'min_samples_split': 2, 'max_depth': 8}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:33
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0748>
+Training Model Number: 35 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 15, 'min_samples_split': 2, 'max_depth': 16}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:50
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0828>
+Training Model Number: 36 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 15, 'min_samples_split': 100, 'max_depth': 2}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:06
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0780>
+Training Model Number: 37 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 15, 'min_samples_split': 100, 'max_depth': 4}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:09
+<Regression.RandomForestRegressor object at 0x000001DFBAFD01D0>
+Training Model Number: 38 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 15, 'min_samples_split': 100, 'max_depth': 6}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:20
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0128>
+Training Model Number: 39 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 15, 'min_samples_split': 100, 'max_depth': 8}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:05
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0048>
+Training Model Number: 40 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 15, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:17
+<Regression.RandomForestRegressor object at 0x000001DFBD983668>
+Training Model Number: 41 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 15, 'min_samples_split': 200, 'max_depth': 2}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:12
+<Regression.RandomForestRegressor object at 0x000001DFBAFF8320>
+Training Model Number: 42 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 15, 'min_samples_split': 200, 'max_depth': 4}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:03
+<Regression.RandomForestRegressor object at 0x000001DFBD95C1D0>
+Training Model Number: 43 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 15, 'min_samples_split': 200, 'max_depth': 6}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:21
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0780>
+Training Model Number: 44 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 15, 'min_samples_split': 200, 'max_depth': 8}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:10
+<Regression.RandomForestRegressor object at 0x000001DFBAFD06D8>
+Training Model Number: 45 Out of 90
+_________________________
+Current Paramaters : {'max_features': None, 'n_trees': 15, 'min_samples_split': 200, 'max_depth': 16}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:20
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0B00>
+Training Model Number: 46 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 5, 'min_samples_split': 2, 'max_depth': 2}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:01
+<Regression.RandomForestRegressor object at 0x000001DFBAFF82E8>
+Training Model Number: 47 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 5, 'min_samples_split': 2, 'max_depth': 4}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:01
+<Regression.RandomForestRegressor object at 0x000001DFBAFF8630>
+Training Model Number: 48 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 5, 'min_samples_split': 2, 'max_depth': 6}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:00
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0EB8>
+Training Model Number: 49 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 5, 'min_samples_split': 2, 'max_depth': 8}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:00
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0DD8>
+Training Model Number: 50 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 5, 'min_samples_split': 2, 'max_depth': 16}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:04
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0D68>
+Training Model Number: 51 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 5, 'min_samples_split': 100, 'max_depth': 2}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:00
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0CC0>
+Training Model Number: 52 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 5, 'min_samples_split': 100, 'max_depth': 4}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:00
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0C88>
+Training Model Number: 53 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 5, 'min_samples_split': 100, 'max_depth': 6}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:00
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0A58>
+Training Model Number: 54 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 5, 'min_samples_split': 100, 'max_depth': 8}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:00
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0860>
+Training Model Number: 55 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 5, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:02
+<Regression.RandomForestRegressor object at 0x000001DFBAFD06A0>
+Training Model Number: 56 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 5, 'min_samples_split': 200, 'max_depth': 2}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:00
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0588>
+Training Model Number: 57 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 5, 'min_samples_split': 200, 'max_depth': 4}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:00
+<Regression.RandomForestRegressor object at 0x000001DFBAFD04A8>
+Training Model Number: 58 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 5, 'min_samples_split': 200, 'max_depth': 6}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:00
+<Regression.RandomForestRegressor object at 0x000001DFBAFD03C8>
+Training Model Number: 59 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 5, 'min_samples_split': 200, 'max_depth': 8}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:00
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0240>
+Training Model Number: 60 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 5, 'min_samples_split': 200, 'max_depth': 16}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:01
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0208>
+Training Model Number: 61 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 10, 'min_samples_split': 2, 'max_depth': 2}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:00
+<Regression.RandomForestRegressor object at 0x000001DFBAFF88D0>
+Training Model Number: 62 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 10, 'min_samples_split': 2, 'max_depth': 4}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:02
+<Regression.RandomForestRegressor object at 0x000001DFBAFF8160>
+Training Model Number: 63 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 10, 'min_samples_split': 2, 'max_depth': 6}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:05
+<Regression.RandomForestRegressor object at 0x000001DFBAFF8438>
+Training Model Number: 64 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 10, 'min_samples_split': 2, 'max_depth': 8}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:05
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0390>
+Training Model Number: 65 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 10, 'min_samples_split': 2, 'max_depth': 16}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:01
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0048>
+Training Model Number: 66 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 2}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:01
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0710>
+Training Model Number: 67 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 4}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:01
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0BA8>
+Training Model Number: 68 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 6}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:04
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0EF0>
+Training Model Number: 69 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 8}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:03
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0F98>
+Training Model Number: 70 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:04
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0E80>
+Training Model Number: 71 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 10, 'min_samples_split': 200, 'max_depth': 2}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:01
+<Regression.RandomForestRegressor object at 0x000001DFBAFD02B0>
+Training Model Number: 72 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 10, 'min_samples_split': 200, 'max_depth': 4}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:00
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0C50>
+Training Model Number: 73 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 10, 'min_samples_split': 200, 'max_depth': 6}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:02
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0940>
+Training Model Number: 74 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 10, 'min_samples_split': 200, 'max_depth': 8}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:01
+<Regression.RandomForestRegressor object at 0x000001DFBAFD09E8>
+Training Model Number: 75 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 10, 'min_samples_split': 200, 'max_depth': 16}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:06
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0908>
+Training Model Number: 76 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 15, 'min_samples_split': 2, 'max_depth': 2}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:00
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0518>
+Training Model Number: 77 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 15, 'min_samples_split': 2, 'max_depth': 4}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:01
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0438>
+Training Model Number: 78 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 15, 'min_samples_split': 2, 'max_depth': 6}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:04
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0358>
+Training Model Number: 79 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 15, 'min_samples_split': 2, 'max_depth': 8}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:02
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0080>
+Training Model Number: 80 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 15, 'min_samples_split': 2, 'max_depth': 16}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:08
+<Regression.RandomForestRegressor object at 0x000001DFBAFD00B8>
+Training Model Number: 81 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 15, 'min_samples_split': 100, 'max_depth': 2}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:00
+<Regression.RandomForestRegressor object at 0x000001DFBAFF8240>
+Training Model Number: 82 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 15, 'min_samples_split': 100, 'max_depth': 4}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:08
+<Regression.RandomForestRegressor object at 0x000001DFBAFF8978>
+Training Model Number: 83 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 15, 'min_samples_split': 100, 'max_depth': 6}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:06
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0438>
+Training Model Number: 84 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 15, 'min_samples_split': 100, 'max_depth': 8}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:06
+<Regression.RandomForestRegressor object at 0x000001DFBAFD0D30>
+Training Model Number: 85 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 15, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:15
+<Regression.RandomForestRegressor object at 0x000001DFBAFF8F60>
+Training Model Number: 86 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 15, 'min_samples_split': 200, 'max_depth': 2}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:01
+<Regression.RandomForestRegressor object at 0x000001DFBAFF8BE0>
+Training Model Number: 87 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 15, 'min_samples_split': 200, 'max_depth': 4}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:02
+<Regression.RandomForestRegressor object at 0x000001DFBAFF8C18>
+Training Model Number: 88 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 15, 'min_samples_split': 200, 'max_depth': 6}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:09
+<Regression.RandomForestRegressor object at 0x000001DFBAFF8F28>
+Training Model Number: 89 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 15, 'min_samples_split': 200, 'max_depth': 8}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:03
+<Regression.RandomForestRegressor object at 0x000001DFBAFF84E0>
+Training Model Number: 90 Out of 90
+_________________________
+Current Paramaters : {'max_features': 'sqrt', 'n_trees': 15, 'min_samples_split': 200, 'max_depth': 16}
+Current Best Paramaters : {'max_features': None, 'n_trees': 10, 'min_samples_split': 100, 'max_depth': 16}
+Current Best Acc :{} 5.300658460925448
+Elapsed Time : {} 00:00:04
+<Regression.RandomForestRegressor object at 0x000001DFBD95C1D0>
+MSE: 5.317785789417632

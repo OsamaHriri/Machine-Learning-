@@ -1,0 +1,110 @@
+reg tree
+['age', 'workclass', 'marital-status', 'relationship', 'race', 'sex', 'capital-gain', 'capital-loss', 'hours-per-week', 'native-country'] education-num
+Training 15 Models
+<Regression.DecisionTreeRegressor object at 0x00000214A48F9630>
+Training Model Number: 1 Out of 15
+_________________________
+Current Paramaters : {'min_samples_split': 2, 'max_depth': 2}
+Current Best Paramaters : None
+Current Best Acc :{} inf
+Elapsed Time : {} 00:00:01
+<Regression.DecisionTreeRegressor object at 0x00000214A48F95F8>
+Training Model Number: 2 Out of 15
+_________________________
+Current Paramaters : {'min_samples_split': 2, 'max_depth': 4}
+Current Best Paramaters : {'min_samples_split': 2, 'max_depth': 2}
+Current Best Acc :{} 6.22493859218782
+Elapsed Time : {} 00:00:05
+<Regression.DecisionTreeRegressor object at 0x00000214A48F9518>
+Training Model Number: 3 Out of 15
+_________________________
+Current Paramaters : {'min_samples_split': 2, 'max_depth': 6}
+Current Best Paramaters : {'min_samples_split': 2, 'max_depth': 4}
+Current Best Acc :{} 5.805579334653492
+Elapsed Time : {} 00:00:08
+<Regression.DecisionTreeRegressor object at 0x00000214A48F9438>
+Training Model Number: 4 Out of 15
+_________________________
+Current Paramaters : {'min_samples_split': 2, 'max_depth': 8}
+Current Best Paramaters : {'min_samples_split': 2, 'max_depth': 6}
+Current Best Acc :{} 5.65237639475553
+Elapsed Time : {} 00:00:09
+<Regression.DecisionTreeRegressor object at 0x00000214A48F9358>
+Training Model Number: 5 Out of 15
+_________________________
+Current Paramaters : {'min_samples_split': 2, 'max_depth': 16}
+Current Best Paramaters : {'min_samples_split': 2, 'max_depth': 8}
+Current Best Acc :{} 5.598384765036822
+Elapsed Time : {} 00:00:21
+<Regression.DecisionTreeRegressor object at 0x00000214A48F9240>
+Training Model Number: 6 Out of 15
+_________________________
+Current Paramaters : {'min_samples_split': 100, 'max_depth': 2}
+Current Best Paramaters : {'min_samples_split': 2, 'max_depth': 8}
+Current Best Acc :{} 5.598384765036822
+Elapsed Time : {} 00:00:02
+<Regression.DecisionTreeRegressor object at 0x00000214A48F9160>
+Training Model Number: 7 Out of 15
+_________________________
+Current Paramaters : {'min_samples_split': 100, 'max_depth': 4}
+Current Best Paramaters : {'min_samples_split': 2, 'max_depth': 8}
+Current Best Acc :{} 5.598384765036822
+Elapsed Time : {} 00:00:03
+<Regression.DecisionTreeRegressor object at 0x00000214A48F9080>
+Training Model Number: 8 Out of 15
+_________________________
+Current Paramaters : {'min_samples_split': 100, 'max_depth': 6}
+Current Best Paramaters : {'min_samples_split': 2, 'max_depth': 8}
+Current Best Acc :{} 5.598384765036822
+Elapsed Time : {} 00:00:06
+<Regression.DecisionTreeRegressor object at 0x00000214A48CFFD0>
+Training Model Number: 9 Out of 15
+_________________________
+Current Paramaters : {'min_samples_split': 100, 'max_depth': 8}
+Current Best Paramaters : {'min_samples_split': 2, 'max_depth': 8}
+Current Best Acc :{} 5.598384765036822
+Elapsed Time : {} 00:00:08
+<Regression.DecisionTreeRegressor object at 0x00000214A48CFF60>
+Training Model Number: 10 Out of 15
+_________________________
+Current Paramaters : {'min_samples_split': 100, 'max_depth': 16}
+Current Best Paramaters : {'min_samples_split': 100, 'max_depth': 8}
+Current Best Acc :{} 5.574657700696789
+Elapsed Time : {} 00:00:10
+<Regression.DecisionTreeRegressor object at 0x00000214A48CFE10>
+Training Model Number: 11 Out of 15
+_________________________
+Current Paramaters : {'min_samples_split': 200, 'max_depth': 2}
+Current Best Paramaters : {'min_samples_split': 100, 'max_depth': 8}
+Current Best Acc :{} 5.574657700696789
+Elapsed Time : {} 00:00:02
+<Regression.DecisionTreeRegressor object at 0x00000214A48CFD30>
+Training Model Number: 12 Out of 15
+_________________________
+Current Paramaters : {'min_samples_split': 200, 'max_depth': 4}
+Current Best Paramaters : {'min_samples_split': 100, 'max_depth': 8}
+Current Best Acc :{} 5.574657700696789
+Elapsed Time : {} 00:00:02
+<Regression.DecisionTreeRegressor object at 0x00000214A48CFC18>
+Training Model Number: 13 Out of 15
+_________________________
+Current Paramaters : {'min_samples_split': 200, 'max_depth': 6}
+Current Best Paramaters : {'min_samples_split': 100, 'max_depth': 8}
+Current Best Acc :{} 5.574657700696789
+Elapsed Time : {} 00:00:13
+<Regression.DecisionTreeRegressor object at 0x00000214A48CFBA8>
+Training Model Number: 14 Out of 15
+_________________________
+Current Paramaters : {'min_samples_split': 200, 'max_depth': 8}
+Current Best Paramaters : {'min_samples_split': 100, 'max_depth': 8}
+Current Best Acc :{} 5.574657700696789
+Elapsed Time : {} 00:00:08
+<Regression.DecisionTreeRegressor object at 0x00000214A48CFB38>
+Training Model Number: 15 Out of 15
+_________________________
+Current Paramaters : {'min_samples_split': 200, 'max_depth': 16}
+Current Best Paramaters : {'min_samples_split': 200, 'max_depth': 8}
+Current Best Acc :{} 5.573941873634816
+Elapsed Time : {} 00:00:11
+<Regression.DecisionTreeRegressor object at 0x00000214A71AAF98>
+MSE: 5.462974441877924

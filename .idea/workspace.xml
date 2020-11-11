@@ -2,28 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="269a319e-fb0c-4217-95ef-d8a00e1c5c8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/HW03-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/HW03-checkpoint.text" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW03.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW03.text" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW03/.ipynb_checkpoints/Final-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW03/Final.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW03/HW3_312126477_312181605_204707350.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW03/Untitled1.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW03/logs/fit/20200624-164432/train/events.out.tfevents.1593006273.DESKTOP-UL47VD4.8256.202.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW03/logs/fit/20200624-164432/train/events.out.tfevents.1593006276.DESKTOP-UL47VD4.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW03/logs/fit/20200624-164432/train/plugins/profile/2020_06_24_13_44_36/DESKTOP-UL47VD4.input_pipeline.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW03/logs/fit/20200624-164432/train/plugins/profile/2020_06_24_13_44_36/DESKTOP-UL47VD4.kernel_stats.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW03/logs/fit/20200624-164432/train/plugins/profile/2020_06_24_13_44_36/DESKTOP-UL47VD4.overview_page.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW03/logs/fit/20200624-164432/train/plugins/profile/2020_06_24_13_44_36/DESKTOP-UL47VD4.tensorflow_stats.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW03/logs/fit/20200624-164432/train/plugins/profile/2020_06_24_13_44_36/DESKTOP-UL47VD4.trace.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW03/logs/fit/20200624-164432/validation/events.out.tfevents.1593006277.DESKTOP-UL47VD4.8256.1443.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW03/logs/fit/20200624-202826/train/events.out.tfevents.1593019707.DESKTOP-UL47VD4.15464.202.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW03/logs/fit/20200624-203014/train/events.out.tfevents.1593019815.DESKTOP-UL47VD4.11568.202.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW03/output/performance.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment03/.ipynb_checkpoints/NareedsChanges-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment03/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment03/Final.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment03/Untitled.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment03/input/gender_submission.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment03/input/test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment03/input/train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment03/output/AdaBoostClassifier.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment03/output/BaggingClassifier.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment03/output/GridSearchCV.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment03/output/KNeighborsClassifier.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment03/output/LinearSVC.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment03/output/NuSVC.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment03/output/RandomForestClassifier.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment03/output/SVC.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment03/output/Sequential.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment03/output/XGBClassifier.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment03/תרגיל למידת מכונה 3 (1).docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW03/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/HW03/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW03/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/HW03/Untitled.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW03/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW03/Untitled.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW03/input/gender_submission.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW03/input/test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW03/input/train.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW03/output/AdaBoostClassifier.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW03/output/BaggingClassifier.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW03/output/KNeighborsClassifier.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW03/output/LinearSVC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW03/output/NuSVC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW03/output/RandomForestClassifier.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW03/output/SVC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW03/output/Sequential.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW03/output/XGBClassifier.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW03/titanic.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW03/תרגיל למידת מכונה 3 (1).docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python dumb/regression1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python dumb/try.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python dumb/try2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python dumb/zxc.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +69,7 @@
   </component>
   <component name="JupyterTrust" id="276b59d8-aef5-4eea-862c-8b999b68dc95" />
   <component name="ProjectId" id="1aGI0eNpRjrZaNYulavxPEJz6iW" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -72,11 +89,12 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/HW02/data/23/expc.csv" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nareed\OneDrive - University of Haifa\ShitToDo\MLHWs\Assignment02" />
       <recent name="C:\Users\Odin\PycharmProjects\Machine-Learning-HWs\HW03" />
       <recent name="C:\Users\Nareed\OneDrive - University of Haifa\ShitToDo\MLHWs\HW02" />
       <recent name="C:\Users\Odin\PycharmProjects\Machine-Learning-HWs\python dumb" />
@@ -266,6 +284,10 @@
       <workItem from="1590069595049" duration="3341000" />
       <workItem from="1590102432557" duration="120000" />
       <workItem from="1590102711580" duration="257000" />
+      <workItem from="1593114597169" duration="37000" />
+      <workItem from="1593296349036" duration="114000" />
+      <workItem from="1598524759089" duration="2001000" />
+      <workItem from="1598529761167" duration="3909000" />
     </task>
     <task id="LOCAL-00001" summary="bug fix">
       <created>1586355373210</created>
@@ -344,14 +366,35 @@
       <option name="project" value="LOCAL" />
       <updated>1592763850302</updated>
     </task>
-    <task id="LOCAL-00012" summary="HW3">
-      <created>1593083374014</created>
+    <task id="LOCAL-00012" summary="Rearranged Assignment 01 files">
+      <created>1598529902816</created>
       <option name="number" value="00012" />
       <option name="presentableId" value="LOCAL-00012" />
       <option name="project" value="LOCAL" />
-      <updated>1593083374014</updated>
+      <updated>1598529902817</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Rearranged Assignment 02 files">
+      <created>1598534758826</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1598534758826</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Rearranged README.md">
+      <created>1598534993237</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1598534993237</updated>
+    </task>
+    <task id="LOCAL-00015" summary="added result png">
+      <created>1598535125899</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1598535125899</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,12 +409,57 @@
     <MESSAGE value="stuff2.0" />
     <MESSAGE value="FinalHW2" />
     <MESSAGE value="HW3" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW3" />
+    <MESSAGE value="Rearranged Assignment 01 files" />
+    <MESSAGE value="Rearranged Assignment 02 files" />
+    <MESSAGE value="Rearranged README.md" />
+    <MESSAGE value="added result png" />
+    <option name="LAST_COMMIT_MESSAGE" value="added result png" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="651" y="311" key="git4idea.merge.GitPullDialog" timestamp="1605078922591">
+    <state x="213" y="0" key="CommitChangelistDialog2" timestamp="1598545213702">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="213" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1598545213702" />
+    <state x="477" y="0" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1592763849900" />
+    <state x="278" y="69" key="MergeDialog" timestamp="1592762846951">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="651" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605078922591" />
+    <state x="278" y="69" key="MergeDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1592762846951" />
+    <state x="531" y="87" key="MultipleFileMergeDialog" timestamp="1592762851217">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="354" y="57" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1590102780310" />
+    <state x="531" y="87" key="MultipleFileMergeDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1592762851217" />
+    <state x="578" y="80" key="RollbackChangesDialog" timestamp="1592763104410">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="385" y="52" key="RollbackChangesDialog/0.0.1280.680@0.0.1280.680" timestamp="1590102728452" />
+    <state x="578" y="80" key="RollbackChangesDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1592763104410" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1598529816799">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1598529816799" />
+    <state x="368" y="147" key="Vcs.Push.Dialog.v2" timestamp="1598545216333">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1598545216333" />
+    <state x="552" y="225" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1592763857605" />
+    <state x="565" y="565" key="com.intellij.ide.util.TipDialog" timestamp="1593019621128">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="565" y="565" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1593019621128" />
+    <state x="513" y="285" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598534928723">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="513" y="285" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1598534928723" />
+    <state x="770" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1592763193463" />
+    <state x="710" y="311" key="git4idea.merge.GitMergeDialog" timestamp="1592763208993">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="710" y="311" key="git4idea.merge.GitMergeDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1592763208993" />
+    <state x="278" y="277" key="git4idea.merge.GitPullDialog" timestamp="1592763412938">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="278" y="277" key="git4idea.merge.GitPullDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1592763412938" />
   </component>
 </project>

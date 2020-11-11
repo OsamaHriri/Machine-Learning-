@@ -1,0 +1,110 @@
+class tree
+['age', 'workclass', 'education', 'education-num', 'occupation', 'marital-status', 'relationship', 'race', 'sex', 'capital-gain', 'capital-loss', 'hours-per-week', 'native-country'] >50K
+Training 15 Models
+<Classifier.DecisionTreeClassifier object at 0x00000269D37486D8>
+Training Model Number: 1 Out of 15
+_________________________
+Current Paramaters : {'min_samples_split': 2, 'max_depth': 2}
+Current Best Paramaters : None
+Current Best Acc :{} 0
+Elapsed Time : {} 00:00:04
+<Classifier.DecisionTreeClassifier object at 0x00000269D36B9DD8>
+Training Model Number: 2 Out of 15
+_________________________
+Current Paramaters : {'min_samples_split': 2, 'max_depth': 4}
+Current Best Paramaters : {'min_samples_split': 2, 'max_depth': 2}
+Current Best Acc :{} 0.7486252945797329
+Elapsed Time : {} 00:00:16
+<Classifier.DecisionTreeClassifier object at 0x00000269D607F6D8>
+Training Model Number: 3 Out of 15
+_________________________
+Current Paramaters : {'min_samples_split': 2, 'max_depth': 6}
+Current Best Paramaters : {'min_samples_split': 2, 'max_depth': 4}
+Current Best Acc :{} 0.8397486252945797
+Elapsed Time : {} 00:00:26
+<Classifier.DecisionTreeClassifier object at 0x00000269D3748160>
+Training Model Number: 4 Out of 15
+_________________________
+Current Paramaters : {'min_samples_split': 2, 'max_depth': 8}
+Current Best Paramaters : {'min_samples_split': 2, 'max_depth': 6}
+Current Best Acc :{} 0.8542812254516889
+Elapsed Time : {} 00:00:40
+<Classifier.DecisionTreeClassifier object at 0x00000269D5FABEF0>
+Training Model Number: 5 Out of 15
+_________________________
+Current Paramaters : {'min_samples_split': 2, 'max_depth': 16}
+Current Best Paramaters : {'min_samples_split': 2, 'max_depth': 8}
+Current Best Acc :{} 0.855655930871956
+Elapsed Time : {} 00:00:51
+<Classifier.DecisionTreeClassifier object at 0x00000269D757F278>
+Training Model Number: 6 Out of 15
+_________________________
+Current Paramaters : {'min_samples_split': 100, 'max_depth': 2}
+Current Best Paramaters : {'min_samples_split': 2, 'max_depth': 8}
+Current Best Acc :{} 0.855655930871956
+Elapsed Time : {} 00:00:09
+<Classifier.DecisionTreeClassifier object at 0x00000269D37584E0>
+Training Model Number: 7 Out of 15
+_________________________
+Current Paramaters : {'min_samples_split': 100, 'max_depth': 4}
+Current Best Paramaters : {'min_samples_split': 2, 'max_depth': 8}
+Current Best Acc :{} 0.855655930871956
+Elapsed Time : {} 00:00:19
+<Classifier.DecisionTreeClassifier object at 0x00000269D3748320>
+Training Model Number: 8 Out of 15
+_________________________
+Current Paramaters : {'min_samples_split': 100, 'max_depth': 6}
+Current Best Paramaters : {'min_samples_split': 2, 'max_depth': 8}
+Current Best Acc :{} 0.855655930871956
+Elapsed Time : {} 00:00:23
+<Classifier.DecisionTreeClassifier object at 0x00000269D36C7F60>
+Training Model Number: 9 Out of 15
+_________________________
+Current Paramaters : {'min_samples_split': 100, 'max_depth': 8}
+Current Best Paramaters : {'min_samples_split': 2, 'max_depth': 8}
+Current Best Acc :{} 0.855655930871956
+Elapsed Time : {} 00:00:22
+<Classifier.DecisionTreeClassifier object at 0x00000269D757F710>
+Training Model Number: 10 Out of 15
+_________________________
+Current Paramaters : {'min_samples_split': 100, 'max_depth': 16}
+Current Best Paramaters : {'min_samples_split': 2, 'max_depth': 8}
+Current Best Acc :{} 0.855655930871956
+Elapsed Time : {} 00:00:22
+<Classifier.DecisionTreeClassifier object at 0x00000269D757FAC8>
+Training Model Number: 11 Out of 15
+_________________________
+Current Paramaters : {'min_samples_split': 200, 'max_depth': 2}
+Current Best Paramaters : {'min_samples_split': 2, 'max_depth': 8}
+Current Best Acc :{} 0.855655930871956
+Elapsed Time : {} 00:00:06
+<Classifier.DecisionTreeClassifier object at 0x00000269D36C7EB8>
+Training Model Number: 12 Out of 15
+_________________________
+Current Paramaters : {'min_samples_split': 200, 'max_depth': 4}
+Current Best Paramaters : {'min_samples_split': 2, 'max_depth': 8}
+Current Best Acc :{} 0.855655930871956
+Elapsed Time : {} 00:00:10
+<Classifier.DecisionTreeClassifier object at 0x00000269D37582E8>
+Training Model Number: 13 Out of 15
+_________________________
+Current Paramaters : {'min_samples_split': 200, 'max_depth': 6}
+Current Best Paramaters : {'min_samples_split': 2, 'max_depth': 8}
+Current Best Acc :{} 0.855655930871956
+Elapsed Time : {} 00:00:10
+<Classifier.DecisionTreeClassifier object at 0x00000269D37585F8>
+Training Model Number: 14 Out of 15
+_________________________
+Current Paramaters : {'min_samples_split': 200, 'max_depth': 8}
+Current Best Paramaters : {'min_samples_split': 2, 'max_depth': 8}
+Current Best Acc :{} 0.855655930871956
+Elapsed Time : {} 00:00:11
+<Classifier.DecisionTreeClassifier object at 0x00000269D3758208>
+Training Model Number: 15 Out of 15
+_________________________
+Current Paramaters : {'min_samples_split': 200, 'max_depth': 16}
+Current Best Paramaters : {'min_samples_split': 2, 'max_depth': 8}
+Current Best Acc :{} 0.855655930871956
+Elapsed Time : {} 00:00:12
+<Classifier.DecisionTreeClassifier object at 0x00000269D6029978>
+Accuracy: 0.8486656721365822
